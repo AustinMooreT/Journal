@@ -2,13 +2,14 @@
 
 * Desktop maintenance
 ** TODO Setup emacs to run as a daemon
-** TODO Finish cleaning up home folder.
+** TODO Finish cleaning up home folder
 ** TODO Get starcraft up and running.
    -  I need to finish emerging wine.
 
 
 
 * TODO Prepare to move out
-** TODO Clean apartment
-*** TODO Buy cleaning supplies
-** TODO Go through my closet and packup things
+  DEADLINE: <2020-07-31 Fri>
+ - [ ] Clean apartment
+   - Buy cleaning supplies
+ - [ ] Go through my closet and packup things
