@@ -1,0 +1,14 @@
+* Journal 
+
+* Desktop maintenance
+** TODO Setup emacs to run as a daemon
+** TODO Finish cleaning up home folder.
+** TODO Get starcraft up and running.
+   -  I need to finish emerging wine.
+
+
+
+* TODO Prepare to move out
+** TODO Clean apartment
+*** TODO Buy cleaning supplies
+** TODO Go through my closet and packup things
