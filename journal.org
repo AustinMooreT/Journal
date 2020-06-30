@@ -1,13 +1,35 @@
-* Journal 
+* Journal [2020-06-30 Tue]
+  :WEATHER:
+  - Shortly after waking up it started raining.
+    Now it's fairly warm. I think around 80. No just 73.
+  :END:
+  :GENERAL:
+  - [2020-06-30 Tue 17:01]
+    I've decided to start tracking my life in org mode.
+    One of the things I want to accomplish with this is daily journaling.
+    I kind of want
+  - [2020-06-30 Tue 17:15]
+    Another thing I want to work on with this shift is better habits.
+    I want to build routines that become automatic and help me work
+    towards becoming the self that I want to be.
 
-* Desktop maintenance
-** TODO Setup emacs to run as a daemon
-** TODO Finish cleaning up home folder
-** TODO Get starcraft up and running.
-   -  I need to finish emerging wine.
+    Another note on that self bit. I'd like to maybe through this
+    try and begin to understand what a self is.
+  :END:
+
+* TODO Desktop maintenance [0/4]
+  - [ ] Setup emacs to run as a daemon
+  - [ ] Finish cleaning up home folder
+  - [ ] Finish configuring xmonad
+  - [ ] Get starcraft up and running
+      :LOGBOOK:
+        - [2020-06-30 Tue 17:12] to get starcraft up and running I need finish emerging wine.
+      :END:
+  :LOGBOOK:
+  :END:
 
 
-
+* TODO Get a haircut
 * TODO Prepare to move out
   DEADLINE: <2020-07-31 Fri>
  - [ ] Clean apartment
