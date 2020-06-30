@@ -17,21 +17,26 @@
     try and begin to understand what a self is.
   :END:
 
-* TODO Desktop maintenance [0/4]
+* TODO Desktop maintenance [0/7]
   - [ ] Setup emacs to run as a daemon
+  - [ ] Fix font in emacs
   - [ ] Finish cleaning up home folder
   - [ ] Finish configuring xmonad
+  - [ ] Merge files from laptop with desktop
+  - [ ] Install gnucash
   - [ ] Get starcraft up and running
-      :LOGBOOK:
-        - [2020-06-30 Tue 17:12] to get starcraft up and running I need finish emerging wine.
-      :END:
+    - to get starcraft up and running I need finish emerging wine.
+
   :LOGBOOK:
   :END:
 
-
 * TODO Get a haircut
+  DEADLINE: <2020-07-02 Thu>
 * TODO Prepare to move out
   DEADLINE: <2020-07-31 Fri>
  - [ ] Clean apartment
-   - Buy cleaning supplies
+   - [ ] Buy cleaning supplies
+   - [ ] Fix the gold thingy on the closet door
+     - To fix it I think I need some glue
+   - [ ] Clean the bathroom
  - [ ] Go through my closet and packup things
