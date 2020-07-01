@@ -1,13 +1,29 @@
+
+* Journal [2020-07-01 Wed]
+  :GENERAL:
+  - [2020-07-01 Wed 08:46]
+    Good morning. I've been awake for a bit now, but I'm just now getting on the computer.
+    My goal is to make this a habit. When I first woke up around 6ish I was struggling.
+    I felt a strong, but dullish pain in my legs. It kind of reminded me of being sore.
+    I think it's from all of the walking I've been doing here lately, but it was way worse
+    than my usual soreness. I tried to go back to sleep for a couple hours, but just kinda ended
+    up lying there in pain. I had a lot of strange dreams last night; I'm going to attribute that to
+    the melatonin I took. I couldn't tell what was real vs what was a dream most of the night.
+  :END:
 * Journal [2020-06-30 Tue]
   :WEATHER:
   - Shortly after waking up it started raining.
     Now it's fairly warm. I think around 80. No just 73.
+  - I went for a walk and the weather was great for it.
+    It was warm, but not too warm and the humidity from the
+    rain made it kinda sticky, but I enjoyed it.
   :END:
   :GENERAL:
   - [2020-06-30 Tue 17:01]
     I've decided to start tracking my life in org mode.
     One of the things I want to accomplish with this is daily journaling.
     I kind of want
+
   - [2020-06-30 Tue 17:15]
     Another thing I want to work on with this shift is better habits.
     I want to build routines that become automatic and help me work
@@ -15,18 +31,38 @@
 
     Another note on that self bit. I'd like to maybe through this
     try and begin to understand what a self is.
+
+  - [2020-06-30 Tue 19:23]
+    Just got back from a walk. I thought a lot about myself.
+    One of the thoughts I had was on how self is an illusion.
+    One of the viewpoints I take on it is that of an inconsistent
+    story being collectively told over time by many people.
+    I also saw a deer. I took some pictures. I'd look to put the pictures
+    in here, but I can't quite yet. I need to add file transfer support from
+    android to my gentoo system.
+
+  - [2020-06-30 Tue 19:44]
+    I decided to go ahead and email the photos to myself lest I forget.
+    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto1.jpg]]
+    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto2.jpg]]
+    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto3.jpg]]
+    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto4.jpg]]
+    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto5.jpg]]
+    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto6.jpg]]
   :END:
 
-* TODO Desktop maintenance [0/7]
+* TODO Desktop maintenance [1/9]
   - [ ] Setup emacs to run as a daemon
-  - [ ] Fix font in emacs
+  - [X] Fix font in emacs
   - [ ] Finish cleaning up home folder
   - [ ] Finish configuring xmonad
   - [ ] Merge files from laptop with desktop
   - [ ] Install gnucash
+  - [ ] Go through systemd journal and fix any strange errors it reports
+  - [ ] Android file transfer support
+    - Needs kernel recompile
   - [ ] Get starcraft up and running
     - to get starcraft up and running I need finish emerging wine.
-
   :LOGBOOK:
   :END:
 
