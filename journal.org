@@ -1,5 +1,137 @@
+* Journal
+* Reading
+  :ARTICLES:
+  - TODO [2020-07-01 Wed 12:08] Article on Commits
+    [[https://chris.beams.io/posts/git-commit/]]
+    This is an article talking about how to write good commits.
+    I thought it seemed interesting.
+  :END:
 
-* Journal [2020-07-01 Wed]
+* TODO Finance
+  - TODO pay student loan for last month
+  - TODO pay credit card bill
+  :LOGBOOK:
+  :END:
+* TODO Add X support CIRU
+  CIRU is a "Checkpoint and Restore" applciation for linux.
+  What that means is that it takes all of the process state
+  and writes it to disk, and then can restore it at a later date.
+
+  I want to use CIRU to save current window layouts in xmonad to disk.
+  The problem with this is that the Xserver stores application state relating
+  to X that is not saved by CIRU. The solution would be to query the Xserver and
+  obtain all of the info relating to our application, then write that to disk upon
+  "checkpoint" and then upon "restore" we reset the X connection and provide it
+  with all of the state needed.
+
+  - TODO Read more documentation and revise steps below
+  - TODO Collect application's xorg state [3/7]
+    - [X] Finish the Desktop maintenance entry pertaining to emacs and C
+    - [X] Setup project with xcb includes
+    - [X] Connect to xserver
+    - [ ] Figure out what screens my application has windows on
+    - [ ] Query xserver for all xclients
+    - [ ] Find all clients belonging to my application
+    - [ ] Enumerate all their attributes and properties
+    - [ ] Save attributes and properties to disk
+  - TODO Integrate collection into ciru
+  - TODO Restore application's xorg state
+  - TODO Integrate restore into ciru
+
+  :DOCUMENTATION:
+  - X.Org protocol implementation specification [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
+  :END:
+  :LOBGBOOK:
+  - [2020-07-01 Wed 12:23] *Initial analyzation of the problem*
+    The main issue we're trying to solve here is the collection of the xserver's
+    state and it's restoration.
+    I think I should break this problem down into a few parts.
+    The first step is the collection of all the application's xserver state.
+    Then we need to integrate the collection of that state into ciru's checkpointing process.
+    Second we need to find a way to restore the application's xserver state.
+    Then integrate the restoration of that state into ciru's restore process.
+    I'm going to add these tasks to the global problem description.
+  - [2020-07-01 Wed 12:35] *Discovery of xmove*
+    I found an application called xmove that kinda does what I want to do.
+    Here's a link to the documentation I'm currently reading I'll detail what I understand here as well
+    [[https://wenku.baidu.com/view/03699041336c1eb91a375d18.html?from=related]]
+    So xmove isn't exactly what I want, but I think it can put me on the right track. How xmove works is as a
+    psudo xserver. It sits between connections and the actual xserver and records their state as they send it to the
+    xserver. I don't want a second xserver. I just want something that querys the xserver for my applications state
+    and then restore's it later. I'm hoping in understanding how xmove works I can understand what state I would need
+    to query for to restore my application.
+  - [2020-07-01 Wed 14:50] *Sad news can't use xmove or xpra*.
+    I was hoping I could use xmove or xpra to accomplish my goals, but they don't really help me at all.
+    They kinda do what I need them to do, but in a way that I don't want. I want a more lightweight solution.
+    I don't want to have install and run an entire and seperate xserver to pull off this trick. So I'm going to have
+    to start reading some of the X11 documentation to understand what messages I'm going to have to send and such.
+  - [2020-07-01 Wed 15:04] *Decided to use xcb*
+    I'm still not sure on what all the state I need to capture is,
+    but I've decided to use xcb to communicate with xserver. I think
+    it's the most reasonable choice overall. I've also begun to setup a project
+    located here [[~/Code/CriuXserver]]
+  - [2020-07-01 Wed 16:05] *An issue I think I'll have to deal with*
+    So xserver gives each client a unique client id that it uses to communicate to xserver with.
+    The issue I think I'm going to run into is that when ciru checkpoints an application the application
+    is still in a state in which it is connected to the xserver and has a particular client id, but when I
+    resume it the xserver may have reserved that id for someone else and it may have to get a new id. So I need
+    to find an application agnostic way to have it relinquish it's old client id and accept a new one bestowed upon it
+    by the xserver.
+  - [2020-07-01 Wed 16:24] *On the issue and plan of attack*
+    I can't really start yet. I still need to work on figuring out how exactly
+    I'm going to tackle the problem. The issue I mentioned before is really throwing
+    a wrench in my plans. I'm still most likely going to use xcb, but I need to read more
+    documentation. I'm currently reading the following.
+    [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
+  :END:
+* TODO Desktop maintenance [2/15]
+  - [ ] Setup emacs to run as a daemon 
+  - [X] Fix font in emacs
+  - [ ] Setup rofi instead of dmenu
+    - See entry 14 for more info
+  - [ ] Finish cleaning up home folder
+  - [ ] Finish configuring xmonad
+  - [ ] Merge files from laptop with desktop
+  - [ ] Install gnucash
+  - [ ] Go through systemd journal and fix any strange errors it reports
+  - [ ] Android file transfer support
+    - Needs kernel recompile
+  - [ ] Get starcraft up and running
+    - To get starcraft up and running I need finish emerging wine.
+    - I've installed wine, but need to test the game. Gonna give it a reboot after I
+      install a new kernel.
+    - Actually wine failed to emerge there's an issue vkd3d emerging I need to investigate this.
+  - [ ] Cleanup my /boot folder
+  - [ ] Setup amd microcode
+    - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
+  - [ ] Fix cursor consitency
+    - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
+      I kinda like the look of the default X cursor so I want to go with it as my main cursor.
+  - [ ] Fix locale settings for portage and rofi
+  - [X] Setup C/C++ in emacs
+  :LOGBOOK:
+  - [2020-07-01 Wed 11:27]
+    I need to fix whatevers messed up with my locale settings before I can run rofi. It crashes with an error indicating an issue with locale.
+  :END:
+
+* TODO Get a haircut
+  DEADLINE: <2020-07-02 Thu>
+* TODO Prepare to move out
+  DEADLINE: <2020-07-31 Fri>
+ - [ ] Clean apartment
+   - [ ] Buy cleaning supplies
+   - [ ] Fix the gold thingy on the closet door
+     - To fix it I think I need some glue
+   - [ ] Clean the bathroom
+ - [ ] Go through my closet and packup things
+
+* Old Journals
+** Journal [2020-07-01 Wed]
+  :WEATHER:
+  - [2020-07-01 Wed]
+    It looks fairly sunny this morning.
+    It also seems like it's going to be warm out today the temperature is 73.
+  :END:
   :GENERAL:
   - [2020-07-01 Wed 08:46]
     Good morning. I've been awake for a bit now, but I'm just now getting on the computer.
@@ -11,8 +143,38 @@
     the melatonin I took. I couldn't tell what was real vs what was a dream most of the night.
     I'm kinda sleepy this morning, but I attribute that to the poor sleep I got last night. I don't mind
     it though I need to get my sleep schedule back to some semblance of normalcy.
+  - [2020-07-01 Wed 09:52]
+    I think I'm finially going to cleanup my kitchen. I've been putting it off for a bit too long.
+    There are so many moldy dishes in there that it's a real struggle.
+  - [2020-07-01 Wed 10:49]
+    Cleaned up all of those old kombucha glasses to reuse for holding liquids.
+    Still have some cleaning to do in the kitchen. I kinda want to get that done today,
+    so it won't stink as bad. Started listening to the "Rational Security" podcast that
+    Israel recommended. It's pretty good so far. I do like it.
+  - [2020-07-01 Wed 14:40]
+    Just got back from a walk. Man I'm sweaty after that one. Did the whole loop (except for where they closed the road).
+    I guess I might just log that too since that's kinda what I want to use this for. The road was closed on the one road (chestnut I think)
+    right where the kroger is. It's the same one that the cvs and liqour store is on.
+    My apartment smells. It's probably because of that moldy soup in that pot. I need to bring myself to cleaning it out. I just haven't yet.
+    I'm actually really tired from the poor sleep I got last night.
+  - [2020-07-01 Wed 16:22]
+    Been doing some programming. I'm having fun with this project I spontaneously picked up this morning. I'm still trying to get the adhesive
+    off these kombucha bottles that I have. I love that the glass bottle has a heart on the bottom.
+  - [2020-07-01 Wed 18:39]
+    I cleaned more of the dishes I think the smell
+    should begin to disapate. I checked the laundry room
+    and that guys laundry is still there.
+    I'm drinking an ice cold beer I threw in the freezer.
+    It's got a tiny bit of slush making it perfect. I also
+    messed around a lot and watched some starcraft.
+  - [2020-07-01 Wed 22:00]
+    I'm getting ready to head to bed.
+    I want to get my bed time sort of normalized to be around 9.
+    I took an additonal walk was good. I also got another match on tinder.
+    I'm pretty tired now. I also want to start moving my commits on this journal to
+    a once a day kind of thing. I think that would be pretty reasonable. Welp good night.
   :END:
-* Journal [2020-06-30 Tue]
+** Journal [2020-06-30 Tue]
   :WEATHER:
   - Shortly after waking up it started raining.
     Now it's fairly warm. I think around 80. No just 73.
@@ -52,29 +214,3 @@
     [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto5.jpg]]
     [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto6.jpg]]
   :END:
-
-* TODO Desktop maintenance [1/9]
-  - [ ] Setup emacs to run as a daemon
-  - [X] Fix font in emacs
-  - [ ] Finish cleaning up home folder
-  - [ ] Finish configuring xmonad
-  - [ ] Merge files from laptop with desktop
-  - [ ] Install gnucash
-  - [ ] Go through systemd journal and fix any strange errors it reports
-  - [ ] Android file transfer support
-    - Needs kernel recompile
-  - [ ] Get starcraft up and running
-    - to get starcraft up and running I need finish emerging wine.
-  :LOGBOOK:
-  :END:
-
-* TODO Get a haircut
-  DEADLINE: <2020-07-02 Thu>
-* TODO Prepare to move out
-  DEADLINE: <2020-07-31 Fri>
- - [ ] Clean apartment
-   - [ ] Buy cleaning supplies
-   - [ ] Fix the gold thingy on the closet door
-     - To fix it I think I need some glue
-   - [ ] Clean the bathroom
- - [ ] Go through my closet and packup things
