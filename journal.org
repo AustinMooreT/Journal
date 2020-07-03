@@ -1,18 +1,157 @@
-* Journal
-* Reading
-  :ARTICLES:
-  - TODO [2020-07-01 Wed 12:08] Article on Commits
+* Journaling <<JR>>
+  :LOGBOOK:
+  :END:
+** Current Journal <<JR:CJ>>
+*** Journal [2020-07-02 Thu]
+    - [2020-07-02 Thu 07:37]
+      Today is even worse than yesterday. I hope I can get my sleep under control tonight.
+      I'm so sleepy it's unreal. I think I got at least 6 hours worth, so that's not too bad.
+      I've actually been awake since 4 this morning. Just now am getting up and about. Went to
+      McDonalds for breakfast.
+    - [2020-07-02 Thu 12:37]
+      I fell asleep and slept way too long. I'm probably not going to be able to get to bed at a
+      decent time tonight. This sucks. I wish I wasn't so stupid and messed up my sleep like this.
+    - [2020-07-02 Thu 14:39]
+      Feel kinda lost at what I should do. Fixed part of the wine install. Should note that here.
+      I think I'm going to program on the vulkan project.
+    - [2020-07-02 Thu 15:30]
+      Spent some more time organizing things I like this a lot. I really want to focus on making entering things into this
+      file a habit. Organizing my life into these sections could be really helpful. I want to build up habits around everything in here.
+    - [2020-07-02 Thu 19:38]
+      Feeling really good about my current org mode setup. I like the way my project structure is coming together.
+      I'm still kinda procrastinating the whole job thing though.
+** Old Journals <<JR:OJ>>
+*** Journal [2020-07-01 Wed]
+    - [2020-07-01 Wed 08:46]
+      Good morning. I've been awake for a bit now, but I'm just now getting on the computer.
+      My goal is to make this a habit. When I first woke up around 6ish I was struggling.
+      I felt a strong, but dullish pain in my legs. It kind of reminded me of being sore.
+      I think it's from all of the walking I've been doing here lately, but it was way worse
+      than my usual soreness. I tried to go back to sleep for a couple hours, but just kinda ended
+      up lying there in pain. I had a lot of strange dreams last night; I'm going to attribute that to
+      the melatonin I took. I couldn't tell what was real vs what was a dream most of the night.
+      I'm kinda sleepy this morning, but I attribute that to the poor sleep I got last night. I don't mind
+      it though I need to get my sleep schedule back to some semblance of normalcy.
+    - [2020-07-01 Wed 09:52]
+      I think I'm finially going to cleanup my kitchen. I've been putting it off for a bit too long.
+      There are so many moldy dishes in there that it's a real struggle.
+    - [2020-07-01 Wed 10:49]
+      Cleaned up all of those old kombucha glasses to reuse for holding liquids.
+      Still have some cleaning to do in the kitchen. I kinda want to get that done today,
+      so it won't stink as bad. Started listening to the "Rational Security" podcast that
+      Israel recommended. It's pretty good so far. I do like it.
+    - [2020-07-01 Wed 14:40]
+      Just got back from a walk. Man I'm sweaty after that one. Did the whole loop (except for where they closed the road).
+      I guess I might just log that too since that's kinda what I want to use this for. The road was closed on the one road (chestnut I think)
+      right where the kroger is. It's the same one that the cvs and liqour store is on.
+      My apartment smells. It's probably because of that moldy soup in that pot. I need to bring myself to cleaning it out. I just haven't yet.
+      I'm actually really tired from the poor sleep I got last night.
+    - [2020-07-01 Wed 16:22]
+      Been doing some programming. I'm having fun with this project I spontaneously picked up this morning. I'm still trying to get the adhesive
+      off these kombucha bottles that I have. I love that the glass bottle has a heart on the bottom.
+    - [2020-07-01 Wed 18:39]
+      I cleaned more of the dishes I think the smell
+      should begin to disapate. I checked the laundry room
+      and that guys laundry is still there.
+      I'm drinking an ice cold beer I threw in the freezer.
+      It's got a tiny bit of slush making it perfect. I also
+      messed around a lot and watched some starcraft.
+    - [2020-07-01 Wed 22:00]
+      I'm getting ready to head to bed.
+      I want to get my bed time sort of normalized to be around 9.
+      I took an additonal walk was good. I also got another match on tinder.
+      I'm pretty tired now. I also want to start moving my commits on this journal to
+      a once a day kind of thing. I think that would be pretty reasonable. Welp good night.
+*** Journal [2020-06-30 Tue]
+    - [2020-06-30 Tue 17:01]
+      I've decided to start tracking my life in org mode.
+      One of the things I want to accomplish with this is daily journaling.
+      I kind of want
+    - [2020-06-30 Tue 17:15]
+      Another thing I want to work on with this shift is better habits.
+      I want to build routines that become automatic and help me work
+      towards becoming the self that I want to be.
+      Another note on that self bit. I'd like to maybe through this
+      try and begin to understand what a self is.
+    - [2020-06-30 Tue 19:23]
+      Just got back from a walk. I thought a lot about myself.
+      One of the thoughts I had was on how self is an illusion.
+      One of the viewpoints I take on it is that of an inconsistent
+      story being collectively told over time by many people.
+      I also saw a deer. I took some pictures. I'd look to put the pictures
+      in here, but I can't quite yet. I need to add file transfer support from
+      android to my gentoo system.
+    - [2020-06-30 Tue 19:44]
+      I decided to go ahead and email the photos to myself lest I forget.
+       [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto1.jpg]]  
+      [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto2.jpg]]
+      [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto3.jpg]]
+      [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto4.jpg]]
+       [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto5.jpg]] 
+      [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto6.jpg]]
+
+* Work <<WK>>
+  :LOGBOOK:
+  :END:
+  - TODO initiate this project
+* Life <<LF>>
+  :LOGBOOK:
+  :END:
+** TODO Prepare to move out <<LF:MV>>
+   :LOGBOOK:
+   :END:
+   DEADLINE: <2020-07-31 Fri>
+   - [ ] Clean apartment
+   - [ ] Buy cleaning supplies
+   - [ ] Fix the gold thingy on the closet door
+     - To fix it I think I need some glue
+   - [ ] Clean the bathroom
+   - [ ] Go through my closet and packup things
+
+* Org Maintenance <<OM>>
+  :LOGBOOK:
+  :END:
+  This is where I'd like to track any sort of
+  project related to the maintenance of my org file itself.
+** Open Tasks <<OM:OT>>
+*** TODO create custom elisp utilities <<OM:OT1>>
+    :LOGBOOK:
+    :END:
+    I'd like to create custom elisp functions to quickly
+    update and modify my projects in elisp.
+
+    - [0%] I'm going to create a list of utilities that I'd like to have.
+      - [ ] Automatic journal creation and archiving.
+      - [ ] Automatic journal entry creation.
+      - [ ] Automatic logbook entry for any identifier.
+    
+* Reading <<CR>>
+  :LOGBOOK:
+  - [2020-07-02 Thu 15:19] TODO
+    I'd like to find a book on PERT process management. I'd like to start applying it to this project here.
+  :END:
+** Books <<CR:BK>>
+*** TODO Death by Shelly Kagan <<CR:BK1>>
+    - TODO I need to redownload the pdf from library genesis. I left off on the chapter about platos
+** Articles <<CR:AS>>
+*** TODO Chris Beams' on writing good commits. <<CR:AS1>>
     [[https://chris.beams.io/posts/git-commit/]]
     This is an article talking about how to write good commits.
     I thought it seemed interesting.
-  :END:
 
-* TODO Finance
-  - TODO pay student loan for last month
-  - TODO pay credit card bill
+* Finance <<FN>>
   :LOGBOOK:
   :END:
-* TODO Add X support CIRU
+** TODO Instantiate this project <<FN1>>
+   I'd like to put together reoccurring tasks and such in here.
+   Also work on integrating this with some sort of workflow with gnucash
+   Shouldn't be too bad, but I'm lazy
+
+* Programming <<PG>>
+  :LOGBOOK:
+  :END:
+** TODO Game Engine <<PG1>>
+** TODO Add X support CIRU <<PG2>>
   CIRU is a "Checkpoint and Restore" applciation for linux.
   What that means is that it takes all of the process state
   and writes it to disk, and then can restore it at a later date.
@@ -25,7 +164,11 @@
   with all of the state needed.
 
   - TODO Read more documentation and revise steps below
-  - TODO Collect application's xorg state [3/7]
+    So I think our best bet here is to look into how guievict did things.
+    There is a pdf with its documentation located here https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
+    Sadly the university that was hosting the source code and binaries took them down and all that's left is the original paper by Zandy and et al.
+    I honestly don't think it will be too bad, but only time will tell.
+  - TODO Collect application's xorg state NOTE I think the steps below need to be revised after finishing the prior todo [3/7]
     - [X] Finish the Desktop maintenance entry pertaining to emacs and C
     - [X] Setup project with xcb includes
     - [X] Connect to xserver
@@ -37,9 +180,9 @@
   - TODO Integrate collection into ciru
   - TODO Restore application's xorg state
   - TODO Integrate restore into ciru
-
   :DOCUMENTATION:
   - X.Org protocol implementation specification [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
+  - Zandy's guievict docs https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
   :END:
   :LOBGBOOK:
   - [2020-07-01 Wed 12:23] *Initial analyzation of the problem*
@@ -83,134 +226,44 @@
     a wrench in my plans. I'm still most likely going to use xcb, but I need to read more
     documentation. I'm currently reading the following.
     [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
+  - [2020-07-02 Thu 07:39] *Guievict*
+    I found a piece of software called guievict that does exactly what I want to do.
+    Well I found mention of the software It seems to have disappeared from the internet only a few
+    mentions here and there. It used to have a wikipedia page, but it no longer does. I'm hoping it's
+    still around somewhere.
+    I think I'm going to have to reimplement it.
+    Here's the paper that describes it's implementation.
+    https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
   :END:
-* TODO Desktop maintenance [2/15]
-  - [ ] Setup emacs to run as a daemon 
-  - [X] Fix font in emacs
-  - [ ] Setup rofi instead of dmenu
-    - See entry 14 for more info
-  - [ ] Finish cleaning up home folder
-  - [ ] Finish configuring xmonad
-  - [ ] Merge files from laptop with desktop
-  - [ ] Install gnucash
-  - [ ] Go through systemd journal and fix any strange errors it reports
-  - [ ] Android file transfer support
-    - Needs kernel recompile
-  - [ ] Get starcraft up and running
-    - To get starcraft up and running I need finish emerging wine.
-    - I've installed wine, but need to test the game. Gonna give it a reboot after I
-      install a new kernel.
-    - Actually wine failed to emerge there's an issue vkd3d emerging I need to investigate this.
-  - [ ] Cleanup my /boot folder
-  - [ ] Setup amd microcode
-    - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
-  - [ ] Fix cursor consitency
-    - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
-      I kinda like the look of the default X cursor so I want to go with it as my main cursor.
-  - [ ] Fix locale settings for portage and rofi
-  - [X] Setup C/C++ in emacs
+
+* Computer Maintenance <<CM>>
   :LOGBOOK:
   - [2020-07-01 Wed 11:27]
     I need to fix whatevers messed up with my locale settings before I can run rofi. It crashes with an error indicating an issue with locale.
   :END:
+** Open Tasks <<CM:OT>>
+*** TODO Setup rofi instead of dmenu <<CM:OT2>>
+    - Rofi is installed, but still needs to be configured.
+*** TODO Finish cleaning up home folder <<CM:OT3>>
+*** TODO Finish configuring xmonad <<CM:OT4>>
+*** TODO Merge files from laptop with desktop <<CM:OT5>>
+*** TODO Go through systemd journal and fix any strange errors it reports <<CM:OT6>>
+*** TODO Android file transfer support <<CM:OT7>>
+*** TODO Get starcraft up and running <<CM:OT8>>
+    - Wine failed to emerge there's an issue vkd3d emerging I need to investigate this.
+      I've gotten vkd3d to emerge, but now I'm running into issues with libsdl2 building.
+*** TODO Cleanup my /boot folder <<CM:OT9>>
+*** TODO Setup amd microcode <<CM:OT10>>
+    - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
+*** TODO Fix cursor consitency <<CM:OT11>>
+    - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
+      I kinda like the look of the default X cursor so I want to go with it as my main cursor.
+** Completed Tasks <<CM:CT>>
+*** DONE Fix font in emacs <<CM:CT1>>
+*** DONE Setup C/C++ in emacs <<CM:CT2>>
+*** DONE Setup emacs to run as a daemon <<CM:CT3>>
+    CLOSED: [2020-07-02 Thu 16:31]
 
-* TODO Get a haircut
-  DEADLINE: <2020-07-02 Thu>
-* TODO Prepare to move out
-  DEADLINE: <2020-07-31 Fri>
- - [ ] Clean apartment
-   - [ ] Buy cleaning supplies
-   - [ ] Fix the gold thingy on the closet door
-     - To fix it I think I need some glue
-   - [ ] Clean the bathroom
- - [ ] Go through my closet and packup things
 
-* Old Journals
-** Journal [2020-07-01 Wed]
-  :WEATHER:
-  - [2020-07-01 Wed]
-    It looks fairly sunny this morning.
-    It also seems like it's going to be warm out today the temperature is 73.
-  :END:
-  :GENERAL:
-  - [2020-07-01 Wed 08:46]
-    Good morning. I've been awake for a bit now, but I'm just now getting on the computer.
-    My goal is to make this a habit. When I first woke up around 6ish I was struggling.
-    I felt a strong, but dullish pain in my legs. It kind of reminded me of being sore.
-    I think it's from all of the walking I've been doing here lately, but it was way worse
-    than my usual soreness. I tried to go back to sleep for a couple hours, but just kinda ended
-    up lying there in pain. I had a lot of strange dreams last night; I'm going to attribute that to
-    the melatonin I took. I couldn't tell what was real vs what was a dream most of the night.
-    I'm kinda sleepy this morning, but I attribute that to the poor sleep I got last night. I don't mind
-    it though I need to get my sleep schedule back to some semblance of normalcy.
-  - [2020-07-01 Wed 09:52]
-    I think I'm finially going to cleanup my kitchen. I've been putting it off for a bit too long.
-    There are so many moldy dishes in there that it's a real struggle.
-  - [2020-07-01 Wed 10:49]
-    Cleaned up all of those old kombucha glasses to reuse for holding liquids.
-    Still have some cleaning to do in the kitchen. I kinda want to get that done today,
-    so it won't stink as bad. Started listening to the "Rational Security" podcast that
-    Israel recommended. It's pretty good so far. I do like it.
-  - [2020-07-01 Wed 14:40]
-    Just got back from a walk. Man I'm sweaty after that one. Did the whole loop (except for where they closed the road).
-    I guess I might just log that too since that's kinda what I want to use this for. The road was closed on the one road (chestnut I think)
-    right where the kroger is. It's the same one that the cvs and liqour store is on.
-    My apartment smells. It's probably because of that moldy soup in that pot. I need to bring myself to cleaning it out. I just haven't yet.
-    I'm actually really tired from the poor sleep I got last night.
-  - [2020-07-01 Wed 16:22]
-    Been doing some programming. I'm having fun with this project I spontaneously picked up this morning. I'm still trying to get the adhesive
-    off these kombucha bottles that I have. I love that the glass bottle has a heart on the bottom.
-  - [2020-07-01 Wed 18:39]
-    I cleaned more of the dishes I think the smell
-    should begin to disapate. I checked the laundry room
-    and that guys laundry is still there.
-    I'm drinking an ice cold beer I threw in the freezer.
-    It's got a tiny bit of slush making it perfect. I also
-    messed around a lot and watched some starcraft.
-  - [2020-07-01 Wed 22:00]
-    I'm getting ready to head to bed.
-    I want to get my bed time sort of normalized to be around 9.
-    I took an additonal walk was good. I also got another match on tinder.
-    I'm pretty tired now. I also want to start moving my commits on this journal to
-    a once a day kind of thing. I think that would be pretty reasonable. Welp good night.
-  :END:
-** Journal [2020-06-30 Tue]
-  :WEATHER:
-  - Shortly after waking up it started raining.
-    Now it's fairly warm. I think around 80. No just 73.
-  - I went for a walk and the weather was great for it.
-    It was warm, but not too warm and the humidity from the
-    rain made it kinda sticky, but I enjoyed it.
-  :END:
-  :GENERAL:
-  - [2020-06-30 Tue 17:01]
-    I've decided to start tracking my life in org mode.
-    One of the things I want to accomplish with this is daily journaling.
-    I kind of want
-
-  - [2020-06-30 Tue 17:15]
-    Another thing I want to work on with this shift is better habits.
-    I want to build routines that become automatic and help me work
-    towards becoming the self that I want to be.
-
-    Another note on that self bit. I'd like to maybe through this
-    try and begin to understand what a self is.
-
-  - [2020-06-30 Tue 19:23]
-    Just got back from a walk. I thought a lot about myself.
-    One of the thoughts I had was on how self is an illusion.
-    One of the viewpoints I take on it is that of an inconsistent
-    story being collectively told over time by many people.
-    I also saw a deer. I took some pictures. I'd look to put the pictures
-    in here, but I can't quite yet. I need to add file transfer support from
-    android to my gentoo system.
-
-  - [2020-06-30 Tue 19:44]
-    I decided to go ahead and email the photos to myself lest I forget.
-    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto1.jpg]]
-    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto2.jpg]]
-    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto3.jpg]]
-    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto4.jpg]]
-    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto5.jpg]]
-    [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto6.jpg]]
-  :END:
+*** DONE Fix locale settings <<CM:OT12>>
+    CLOSED: [2020-07-02 Thu 19:59]
