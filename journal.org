@@ -97,19 +97,31 @@
 * Life <<LF>>
   :LOGBOOK:
   :END:
-** TODO Prepare to move out <<LF:MV>>
-   :LOGBOOK:
-   :END:
-   DEADLINE: <2020-07-31 Fri>
-   - [ ] Clean apartment
-   - [ ] Buy cleaning supplies
-   - [ ] Fix the gold thingy on the closet door
-     - To fix it I think I need some glue
-   - [ ] Clean the bathroom
-   - [ ] Go through my closet and packup things
-
+** Open Tasks  <<LF:OT>>
+*** TODO Prepare to move out <<LF:OT1>>
+    :LOGBOOK:
+    :END:
+    DEADLINE: <2020-07-31 Fri>
+    - [%] Apartment Prep.
+      - [ ] Clean Bathroom
+      - [ ] Clean kitchen
+      - [ ] Prepare storage closet
+      - [ ] Prepare clothes closet
+      - [ ] Prepare kitchen
+      - [ ] Get rid of extra stuff
+      - [ ] Packup what remains
+      - [ ] Fix the gold thingy on the closet door
+        - To fix it I think I need some glue
+      - [ ] Go through my closet and packup things
 * Org Maintenance <<OM>>
   :LOGBOOK:
+  - [2020-07-02 Thu 21:21]
+    I like the idea of projects having **open tasks** and **closed tasks**
+    and as things get completed we move from one to the other.
+    Although I'm unsure if all my projects admit a task based structure.
+    Like my programming project for example is actually less task based overall
+    Same thing with reading books, but maybe they are and I just need to think on it
+    more.
   :END:
   This is where I'd like to track any sort of
   project related to the maintenance of my org file itself.
@@ -117,6 +129,8 @@
 *** TODO create custom elisp utilities <<OM:OT1>>
     :LOGBOOK:
     :END:
+    I think the completion of [[OM:OT2]] should take priority before we automate it.
+
     I'd like to create custom elisp functions to quickly
     update and modify my projects in elisp.
 
@@ -124,25 +138,48 @@
       - [ ] Automatic journal creation and archiving.
       - [ ] Automatic journal entry creation.
       - [ ] Automatic logbook entry for any identifier.
-    
+
+*** TODO work on solidifying project structure <<OM:OT2>>
+    :LOGBOOK:
+    - [2020-07-02 Thu 21:25]
+      One idea that I just want to jot down, so I don't lose it is
+      the idea of assigning priority to tasks in the open tasks sub-heading
+    - [2020-07-02 Thu 21:28]
+      Think about what part of our structure should have logbooks and what shouldn't
+      I don't want to end up with 50 billion log books that I need to maintain.
+    - [2020-07-02 Thu 21:37]
+      I think I'd like to start to distinguish between a few types of structures.
+      One obvious structure that I don't think I can mold evrything into is the task list.
+      Which is how I've been structuring most things. I think [[CM]] is the perfect example of a task list.
+    :END:
+** Closed Tasks <<OM:CT>>
 * Reading <<CR>>
   :LOGBOOK:
   - [2020-07-02 Thu 15:19] TODO
     I'd like to find a book on PERT process management. I'd like to start applying it to this project here.
   :END:
 ** Books <<CR:BK>>
-*** TODO Death by Shelly Kagan <<CR:BK1>>
-    - TODO I need to redownload the pdf from library genesis. I left off on the chapter about platos
+*** Open Tasks <<CR:BK:OT>>
+**** TODO Death by Shelly Kagan <<CR:BK:OT1>>
+***** Open Tasks <<CR:BK:OT1:OT>>
+****** TODO Redownload the pdf <<CR:BK:OT1:OT1>>
+       I need to redownload the pdf from library genesis.
+       I left off on the chapter about plato's philosiphy.
+***** Closed Tasks <<CR:BK:OT1:CT>>
+*** Closed Tasks <<CR:BK:CT>>
 ** Articles <<CR:AS>>
-*** TODO Chris Beams' on writing good commits. <<CR:AS1>>
-    [[https://chris.beams.io/posts/git-commit/]]
-    This is an article talking about how to write good commits.
-    I thought it seemed interesting.
+*** Open Tasks <<CR:AS:OT>>
+**** TODO Chris Beams' on writing good commits. <<CR:AS:OT1>>
+     [[https://chris.beams.io/posts/git-commit/]]
+     This is an article talking about how to write good commits.
+     I thought it seemed interesting.
 
+*** Closed Tasks <<CR:AS:CT>>
 * Finance <<FN>>
   :LOGBOOK:
   :END:
-** TODO Instantiate this project <<FN1>>
+** Open Tasks <<FN:OT>>  
+*** TODO Instantiate this project <<FN:OT1>>
    I'd like to put together reoccurring tasks and such in here.
    Also work on integrating this with some sort of workflow with gnucash
    Shouldn't be too bad, but I'm lazy
@@ -150,8 +187,8 @@
 * Programming <<PG>>
   :LOGBOOK:
   :END:
-** TODO Game Engine <<PG1>>
-** TODO Add X support CIRU <<PG2>>
+** Game Engine <<PG1>>
+** Add X support CIRU <<PG2>>
   CIRU is a "Checkpoint and Restore" applciation for linux.
   What that means is that it takes all of the process state
   and writes it to disk, and then can restore it at a later date.
@@ -242,6 +279,10 @@
     I need to fix whatevers messed up with my locale settings before I can run rofi. It crashes with an error indicating an issue with locale.
   :END:
 ** Open Tasks <<CM:OT>>
+*** TODO Cleanup laptop home folder <<CM:OT1>>
+    Before I can really start to work on [[CM:OT5]]
+    I need to clean up the mess that is my home folder
+    on my laptop. I should also finish [[CM:OT3]] as well.
 *** TODO Setup rofi instead of dmenu <<CM:OT2>>
     - Rofi is installed, but still needs to be configured.
 *** TODO Finish cleaning up home folder <<CM:OT3>>
@@ -250,20 +291,19 @@
 *** TODO Go through systemd journal and fix any strange errors it reports <<CM:OT6>>
 *** TODO Android file transfer support <<CM:OT7>>
 *** TODO Get starcraft up and running <<CM:OT8>>
-    - Wine failed to emerge there's an issue vkd3d emerging I need to investigate this.
-      I've gotten vkd3d to emerge, but now I'm running into issues with libsdl2 building.
+    Wine has been emerged, but I have some sort of error when trying
+    to launch executables.
 *** TODO Cleanup my /boot folder <<CM:OT9>>
 *** TODO Setup amd microcode <<CM:OT10>>
     - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
 *** TODO Fix cursor consitency <<CM:OT11>>
     - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
       I kinda like the look of the default X cursor so I want to go with it as my main cursor.
-** Completed Tasks <<CM:CT>>
+** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
 *** DONE Setup emacs to run as a daemon <<CM:CT3>>
     CLOSED: [2020-07-02 Thu 16:31]
 
-
-*** DONE Fix locale settings <<CM:OT12>>
+*** DONE Fix locale settings <<CM:CT4>>
     CLOSED: [2020-07-02 Thu 19:59]
