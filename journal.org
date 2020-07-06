@@ -2,6 +2,35 @@
   :LOGBOOK:
   :END:
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-07-06 Mon]
+    - [2020-07-06 Mon 09:31]
+      Just got back to my apartment. I'm writing in here before
+      I commit this and push it to my desktop. I wasn't very consistent
+      with these while I was at my parents, but that's ok I guess. Still working
+      on the whole building good habits thing.
+** Old Journals <<JR:OJ>>
+*** Journal [2020-07-05 Sun]
+   - [2020-07-05 Sun 23:55]
+     I find it funny that my only entry in yesterday's journal
+     was "Just woke up" Today was fun. I woke up and watched Jake play dwarffortress.
+     Oh yeah yesterday I went to Jake and Lauren's place and watched fireworks. Jake got
+     paranoid, but that was entertaining.
+*** Journal [2020-07-04 Sat]
+    - [2020-07-04 Sat 09:44]
+      Just woke up
+*** Journal [2020-07-03 Fri]
+    - [2020-07-03 Fri 13:30]
+      Haven't had much time to write in here.
+      woke up showered, put coffee in the freezer to get it cold
+      packed some clothes for so I can stay at my parents.
+      I'm sitting next to Brittany while she feeds the baby.
+      I want to make some progress on how things are organized in here.
+    - [2020-07-03 Fri 16:02]
+      Sat outside for a bit. It was warm, but the heat felt good on my
+      skin. The coffee made everything unconformtable slightly. I think it's
+      because of how it is a vasoconstrictor.
+    - [2020-07-03 Fri 21:51]
+      Just got in from chilling outside with Jordan; talked physics and video games.
 *** Journal [2020-07-02 Thu]
     - [2020-07-02 Thu 07:37]
       Today is even worse than yesterday. I hope I can get my sleep under control tonight.
@@ -19,8 +48,7 @@
       file a habit. Organizing my life into these sections could be really helpful. I want to build up habits around everything in here.
     - [2020-07-02 Thu 19:38]
       Feeling really good about my current org mode setup. I like the way my project structure is coming together.
-      I'm still kinda procrastinating the whole job thing though.
-** Old Journals <<JR:OJ>>
+      I'm still kinda procrastinating the whole job thing though.   
 *** Journal [2020-07-01 Wed]
     - [2020-07-01 Wed 08:46]
       Good morning. I've been awake for a bit now, but I'm just now getting on the computer.
@@ -163,7 +191,7 @@
 **** TODO Death by Shelly Kagan <<CR:BK:OT1>>
 ***** Open Tasks <<CR:BK:OT1:OT>>
 ****** TODO Redownload the pdf <<CR:BK:OT1:OT1>>
-       I need to redownload the pdf from library genesis.
+       I need to redownload the pdf from library genesis onto my desktop.
        I left off on the chapter about plato's philosiphy.
 ***** Closed Tasks <<CR:BK:OT1:CT>>
 *** Closed Tasks <<CR:BK:CT>>
