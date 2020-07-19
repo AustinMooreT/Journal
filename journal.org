@@ -1,14 +1,288 @@
-* Journaling <<JR>>
+* Life <<LF>>
   :LOGBOOK:
   :END:
+** Open Tasks <<LF:OT>>
+*** TODO Prepare to move out <<LF:OT1>>
+    :LOGBOOK:
+    :END:
+    DEADLINE: <2020-07-31 Fri>
+    - [%] Apartment Prep.
+      - [ ] Clean Bathroom
+      - [ ] Clean kitchen
+      - [ ] Prepare storage closet
+      - [ ] Prepare clothes closet
+      - [ ] Prepare kitchen
+      - [ ] Get rid of extra stuff
+      - [ ] Packup what remains
+      - [ ] Fix the gold thingy on the closet door
+        - To fix it I think I need some glue
+      - [ ] Go through my closet and packup things
+*** TODO House scheduling <<LF:OT2>>
+    I believe when they prep the middle floor for the wood flooring
+    everyone has to be out of the house. I'm not sure what week that
+    is, but I should get that information from Rhonda and Josh, so I can
+    figure out a place to stay.
+* Work <<WK>>
+  :LOGBOOK:
+  :END:
+** Leidos
+   They sent me an email pertaining to the employee referall program. I talked to someone in HR, and am waiting to hear back.
+** Cintas
+   I basically gave them the cold shoulder. I hope that information doesn't come around
+   to Dad, but we will see.
+* Finance <<FN>>
+  :LOGBOOK:
+  :END:
+** Open Tasks <<FN:OT>>
+*** TODO Instantiate this project <<FN:OT1>>
+   I'd like to put together reoccurring tasks and such in here.
+   Also work on integrating this with some sort of workflow with gnucash
+   Shouldn't be too bad, but I'm lazy
+
+* Computer Maintenance <<CM>>
+  :LOGBOOK:
+  - [2020-07-01 Wed 11:27]
+    I need to fix whatevers messed up with my locale settings before I can run rofi. It crashes with an error indicating an issue with locale.
+  :END:
+** Open Tasks <<CM:OT>>
+*** TODO Cleanup laptop home folder <<CM:OT1>>
+    Before I can really start to work on [[CM:OT5]]
+    I need to clean up the mess that is my home folder
+    on my laptop. I should also finish [[CM:OT3]] as well.
+*** TODO Replace laptop fonts with the same font as my desktop <<CM:OT13>>
+*** TODO Setup rofi instead of dmenu <<CM:OT2>>
+    - Rofi is installed, but still needs to be configured.
+*** TODO Finish cleaning up home folder <<CM:OT3>>
+*** TODO Finish configuring xmonad <<CM:OT4>>
+*** TODO Merge files from laptop with desktop <<CM:OT5>>
+*** TODO Go through systemd journal and fix any strange errors it reports <<CM:OT6>>
+*** TODO Android file transfer support <<CM:OT7>>
+*** TODO Get starcraft up and running <<CM:OT8>>
+    Wine has been emerged, but I have some sort of error when trying
+    to launch executables.
+*** TODO Cleanup my /boot folder <<CM:OT9>>
+*** TODO Setup amd microcode <<CM:OT10>>
+    - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
+*** TODO Fix cursor consitency <<CM:OT11>>
+    - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
+      I kinda like the look of the default X cursor so I want to go with it as my main cursor.
+** Closed Tasks <<CM:CT>>
+*** DONE Fix font in emacs <<CM:CT1>>
+*** DONE Setup C/C++ in emacs <<CM:CT2>>
+*** DONE Setup emacs to run as a daemon <<CM:CT3>>
+    CLOSED: [2020-07-02 Thu 16:31]
+
+*** DONE Fix locale settings <<CM:CT4>>
+    CLOSED: [2020-07-02 Thu 19:59]
+* Org Maintenance <<OM>>
+  :LOGBOOK:
+  - [2020-07-02 Thu 21:21]
+    I like the idea of projects having **open tasks** and **closed tasks**
+    and as things get completed we move from one to the other.
+    Although I'm unsure if all my projects admit a task based structure.
+    Like my programming project for example is actually less task based overall
+    Same thing with reading books, but maybe they are and I just need to think on it
+    more.
+  :END:
+  This is where I'd like to track any sort of
+  project related to the maintenance of my org file itself.
+** Open Tasks <<OM:OT>>
+*** TODO create custom elisp utilities <<OM:OT1>>
+    :LOGBOOK:
+    :END:
+    I think the completion of [[OM:OT2]] should take priority before we automate it.
+
+    I'd like to create custom elisp functions to quickly
+    update and modify my projects in elisp.
+
+    - [0%] I'm going to create a list of utilities that I'd like to have.
+      - [ ] Automatic journal creation and archiving.
+      - [ ] Automatic journal entry creation.
+      - [ ] Automatic logbook entry for any identifier.
+
+*** TODO work on solidifying project structure <<OM:OT2>>
+    :LOGBOOK:
+    - [2020-07-02 Thu 21:25]
+      One idea that I just want to jot down, so I don't lose it is
+      the idea of assigning priority to tasks in the open tasks sub-heading
+    - [2020-07-02 Thu 21:28]
+      Think about what part of our structure should have logbooks and what shouldn't
+      I don't want to end up with 50 billion log books that I need to maintain.
+    - [2020-07-02 Thu 21:37]
+      I think I'd like to start to distinguish between a few types of structures.
+      One obvious structure that I don't think I can mold evrything into is the task list.
+      Which is how I've been structuring most things. I think [[CM]] is the perfect example of a task list.
+    - [2020-07-16 Thu 11:14]
+      I also want to order the global project heirarchy in the order is should cycle through each section
+      in the morning. That's why I moved journaling to the bottom.
+    - [2020-07-16 Thu 11:17]
+      The status of this project is kinda ethereal, so I need to really put together some notes on what I should be doing with this project.
+    :END:
+** Closed Tasks <<OM:CT>>
+* Reading <<CR>>
+  :LOGBOOK:
+  - [2020-07-02 Thu 15:19] TODO
+    I'd like to find a book on PERT process management. I'd like to start applying it to this project here.
+  :END:
+** Books <<CR:BK>>
+*** Open Tasks <<CR:BK:OT>>
+**** TODO Death by Shelly Kagan <<CR:BK:OT1>>
+***** Open Tasks <<CR:BK:OT1:OT>>
+****** TODO Redownload the pdf <<CR:BK:OT1:OT1>>
+       I need to redownload the pdf from library genesis onto my desktop.
+       I left off on the chapter about plato's philosiphy.
+***** Closed Tasks <<CR:BK:OT1:CT>>
+
+**** TODO Intoduction To Smooth Manifolds by John M. Lee <<CR:BK:OT2>>
+**** TODO Discrete Differential Geometry <<CR:BK:OT3>>
+**** TODO The Geometry of Musical Rhythm by Godfried Toussiant <<CT:BK:OT4>>
+*** Closed Tasks <<CR:BK:CT>>
+** Articles <<CR:AS>>
+*** Open Tasks <<CR:AS:OT>>
+**** TODO Chris Beams' on writing good commits. <<CR:AS:OT1>>
+     [[https://chris.beams.io/posts/git-commit/]]
+     This is an article talking about how to write good commits.
+     I thought it seemed interesting.
+
+*** Closed Tasks <<CR:AS:CT>>
+* Programming <<PG>>
+  :LOGBOOK:
+  :END:
+** Game Engine <<PG1>>
+** Add X support CIRU <<PG2>>
+  CIRU is a "Checkpoint and Restore" applciation for linux.
+  What that means is that it takes all of the process state
+  and writes it to disk, and then can restore it at a later date.
+
+  I want to use CIRU to save current window layouts in xmonad to disk.
+  The problem with this is that the Xserver stores application state relating
+  to X that is not saved by CIRU. The solution would be to query the Xserver and
+  obtain all of the info relating to our application, then write that to disk upon
+  "checkpoint" and then upon "restore" we reset the X connection and provide it
+  with all of the state needed.
+
+  - TODO Read more documentation and revise steps below
+    So I think our best bet here is to look into how guievict did things.
+    There is a pdf with its documentation located here https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
+    Sadly the university that was hosting the source code and binaries took them down and all that's left is the original paper by Zandy and et al.
+    I honestly don't think it will be too bad, but only time will tell.
+  - TODO Collect application's xorg state NOTE I think the steps below need to be revised after finishing the prior todo [3/7]
+    - [X] Finish the Desktop maintenance entry pertaining to emacs and C
+    - [X] Setup project with xcb includes
+    - [X] Connect to xserver
+    - [ ] Figure out what screens my application has windows on
+    - [ ] Query xserver for all xclients
+    - [ ] Find all clients belonging to my application
+    - [ ] Enumerate all their attributes and properties
+    - [ ] Save attributes and properties to disk
+  - TODO Integrate collection into ciru
+  - TODO Restore application's xorg state
+  - TODO Integrate restore into ciru
+  :DOCUMENTATION:
+  - X.Org protocol implementation specification [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
+  - Zandy's guievict docs https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
+  :END:
+  :LOBGBOOK:
+  - [2020-07-01 Wed 12:23] *Initial analyzation of the problem*
+    The main issue we're trying to solve here is the collection of the xserver's
+    state and it's restoration.
+    I think I should break this problem down into a few parts.
+    The first step is the collection of all the application's xserver state.
+    Then we need to integrate the collection of that state into ciru's checkpointing process.
+    Second we need to find a way to restore the application's xserver state.
+    Then integrate the restoration of that state into ciru's restore process.
+    I'm going to add these tasks to the global problem description.
+  - [2020-07-01 Wed 12:35] *Discovery of xmove*
+    I found an application called xmove that kinda does what I want to do.
+    Here's a link to the documentation I'm currently reading I'll detail what I understand here as well
+    [[https://wenku.baidu.com/view/03699041336c1eb91a375d18.html?from=related]]
+    So xmove isn't exactly what I want, but I think it can put me on the right track. How xmove works is as a
+    psudo xserver. It sits between connections and the actual xserver and records their state as they send it to the
+    xserver. I don't want a second xserver. I just want something that querys the xserver for my applications state
+    and then restore's it later. I'm hoping in understanding how xmove works I can understand what state I would need
+    to query for to restore my application.
+  - [2020-07-01 Wed 14:50] *Sad news can't use xmove or xpra*.
+    I was hoping I could use xmove or xpra to accomplish my goals, but they don't really help me at all.
+    They kinda do what I need them to do, but in a way that I don't want. I want a more lightweight solution.
+    I don't want to have install and run an entire and seperate xserver to pull off this trick. So I'm going to have
+    to start reading some of the X11 documentation to understand what messages I'm going to have to send and such.
+  - [2020-07-01 Wed 15:04] *Decided to use xcb*
+    I'm still not sure on what all the state I need to capture is,
+    but I've decided to use xcb to communicate with xserver. I think
+    it's the most reasonable choice overall. I've also begun to setup a project
+    located here [[~/Code/CriuXserver]]
+  - [2020-07-01 Wed 16:05] *An issue I think I'll have to deal with*
+    So xserver gives each client a unique client id that it uses to communicate to xserver with.
+    The issue I think I'm going to run into is that when ciru checkpoints an application the application
+    is still in a state in which it is connected to the xserver and has a particular client id, but when I
+    resume it the xserver may have reserved that id for someone else and it may have to get a new id. So I need
+    to find an application agnostic way to have it relinquish it's old client id and accept a new one bestowed upon it
+    by the xserver.
+  - [2020-07-01 Wed 16:24] *On the issue and plan of attack*
+    I can't really start yet. I still need to work on figuring out how exactly
+    I'm going to tackle the problem. The issue I mentioned before is really throwing
+    a wrench in my plans. I'm still most likely going to use xcb, but I need to read more
+    documentation. I'm currently reading the following.
+    [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
+  - [2020-07-02 Thu 07:39] *Guievict*
+    I found a piece of software called guievict that does exactly what I want to do.
+    Well I found mention of the software It seems to have disappeared from the internet only a few
+    mentions here and there. It used to have a wikipedia page, but it no longer does. I'm hoping it's
+    still around somewhere.
+    I think I'm going to have to reimplement it.
+    Here's the paper that describes it's implementation.
+    https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
+  :END:
+* Journaling <<JR>>
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-07-17 Fri]
+    - [2020-07-17 Fri 15:49]
+      Learned a decent bit about music today from Pa. I currently have to pee. and want to read more.
+      I think I'm going to start trying to read through classical pieces to try and get more familiar.
+** Old Journals <<JR:OJ>>
+*** [2020-07-16 Thu]
+    - [2020-07-16 Thu 11:01]
+      I'm trying to remember where I left off on chronocling the foot thing.
+      I guess I'll just wait till I get back to my place to write down some more of the details and put up pictures.
+      I wrote most of it in the one journal (Maybe I should create links in my journals? I don't think that's something
+      I want to have to maintain. My habit of working on this file has kinda died off. I want to start a habit of getting up
+      at 5 and going to bed at 9:45. Then spend at least 30 minutes to an hour working on this file every morning. I think it would
+      be awesome. Right now I'm sitting in the recliner in Mimi and Pa's bonus room while Pa plays his guitar. I love the way my
+      laptop sits in my lap. It is very satisfying. It makes me feel really good. The slight slant and the comfyness of the screen.
+      I think I want to update the font on my laptop to reflect the same font as my desktop. I also like the way my macbook's keyboard
+      feels. If I get a new job do I want to buy a new laptop? I don't think I do. I think I have a few more good years in my macbook.
+      Maybe get a replacement battery, but that's about it. I like where everything else is on this machine. I'm just writing down
+      the first things that come to mind right now. It's quite satisfying. I think this is one of the secrets to writing I was missing.
+      The ability to freely write down every thought that appears, then reflect on it. Like if I were writing some form of story I think
+      I'd write for as long as ideas flow, then go back and refactor and expand specific sections of the story's structure. Well. I think
+      I'm going to stop writing in the journal and move on to other parts of the file. But before I do that I want to talk more about how satisfying
+      the automatic feeling of typing on the keyboard is.   
+*** Journal [2020-07-14 Tue]
+    - [2020-07-14 Tue 16:33]
+      oof
+*** Journal [2020-07-13 Mon]
+    - [2020-07-13 Mon 14:27]
+      So I'm currently at Mimi and Pa's. I've been here since friday.
+      I decided to visit Isaiah and Taylor last Monday right after moving
+      this file over to my desktop (I'm back on my laptop now.) While I was there
+      I dropped their "Prosperity Toad" on my toe. I knocked it off with the box containing
+      old video games on the coffee table. I didn't think it was that big of a deal, but it damaged my
+      toe pretty bad. I then stayed with them that night. We drank and smoked weed. I iced my foot and Taylor
+      gave me Advil to take for the pain. While I was there we also watched two movies. Pulp Fiction and Jack and Jill.
+      Pulp Fiction was better than I remember it. It was hilarious. We decided to smoke herb afterwards. While smoking I kinda
+      talked Taylor into it. I was asking what she was afraid of and was trying to rationalize her fear, but because we were unable
+      to rationalize it we decided that it didn't make sense to be afraid. After smoking we started watching the movie Jack and Jill;
+      it was actually a lot better than I thought it would be.
+    - [2020-07-13 Mon 17:25]
+      I think I want to finish my tale of the past few days. After watching Jack and Jill we fell asleep and I stayed at their place the next day as well.
+      I spent that whole day just suffering from the pain in my foot. It was not a fun time. I also cooked curry for them. I hope they enjoyed it.
+      I thought it was pretty good. I then went home and.
 *** Journal [2020-07-06 Mon]
     - [2020-07-06 Mon 09:31]
       Just got back to my apartment. I'm writing in here before
       I commit this and push it to my desktop. I wasn't very consistent
       with these while I was at my parents, but that's ok I guess. Still working
       on the whole building good habits thing.
-** Old Journals <<JR:OJ>>
 *** Journal [2020-07-05 Sun]
    - [2020-07-05 Sun 23:55]
      I find it funny that my only entry in yesterday's journal
@@ -117,221 +391,3 @@
       [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto4.jpg]]
        [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto5.jpg]] 
       [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto6.jpg]]
-
-* Work <<WK>>
-  :LOGBOOK:
-  :END:
-  - TODO initiate this project
-* Life <<LF>>
-  :LOGBOOK:
-  :END:
-** Open Tasks  <<LF:OT>>
-*** TODO Prepare to move out <<LF:OT1>>
-    :LOGBOOK:
-    :END:
-    DEADLINE: <2020-07-31 Fri>
-    - [%] Apartment Prep.
-      - [ ] Clean Bathroom
-      - [ ] Clean kitchen
-      - [ ] Prepare storage closet
-      - [ ] Prepare clothes closet
-      - [ ] Prepare kitchen
-      - [ ] Get rid of extra stuff
-      - [ ] Packup what remains
-      - [ ] Fix the gold thingy on the closet door
-        - To fix it I think I need some glue
-      - [ ] Go through my closet and packup things
-* Org Maintenance <<OM>>
-  :LOGBOOK:
-  - [2020-07-02 Thu 21:21]
-    I like the idea of projects having **open tasks** and **closed tasks**
-    and as things get completed we move from one to the other.
-    Although I'm unsure if all my projects admit a task based structure.
-    Like my programming project for example is actually less task based overall
-    Same thing with reading books, but maybe they are and I just need to think on it
-    more.
-  :END:
-  This is where I'd like to track any sort of
-  project related to the maintenance of my org file itself.
-** Open Tasks <<OM:OT>>
-*** TODO create custom elisp utilities <<OM:OT1>>
-    :LOGBOOK:
-    :END:
-    I think the completion of [[OM:OT2]] should take priority before we automate it.
-
-    I'd like to create custom elisp functions to quickly
-    update and modify my projects in elisp.
-
-    - [0%] I'm going to create a list of utilities that I'd like to have.
-      - [ ] Automatic journal creation and archiving.
-      - [ ] Automatic journal entry creation.
-      - [ ] Automatic logbook entry for any identifier.
-
-*** TODO work on solidifying project structure <<OM:OT2>>
-    :LOGBOOK:
-    - [2020-07-02 Thu 21:25]
-      One idea that I just want to jot down, so I don't lose it is
-      the idea of assigning priority to tasks in the open tasks sub-heading
-    - [2020-07-02 Thu 21:28]
-      Think about what part of our structure should have logbooks and what shouldn't
-      I don't want to end up with 50 billion log books that I need to maintain.
-    - [2020-07-02 Thu 21:37]
-      I think I'd like to start to distinguish between a few types of structures.
-      One obvious structure that I don't think I can mold evrything into is the task list.
-      Which is how I've been structuring most things. I think [[CM]] is the perfect example of a task list.
-    :END:
-** Closed Tasks <<OM:CT>>
-* Reading <<CR>>
-  :LOGBOOK:
-  - [2020-07-02 Thu 15:19] TODO
-    I'd like to find a book on PERT process management. I'd like to start applying it to this project here.
-  :END:
-** Books <<CR:BK>>
-*** Open Tasks <<CR:BK:OT>>
-**** TODO Death by Shelly Kagan <<CR:BK:OT1>>
-***** Open Tasks <<CR:BK:OT1:OT>>
-****** TODO Redownload the pdf <<CR:BK:OT1:OT1>>
-       I need to redownload the pdf from library genesis onto my desktop.
-       I left off on the chapter about plato's philosiphy.
-***** Closed Tasks <<CR:BK:OT1:CT>>
-*** Closed Tasks <<CR:BK:CT>>
-** Articles <<CR:AS>>
-*** Open Tasks <<CR:AS:OT>>
-**** TODO Chris Beams' on writing good commits. <<CR:AS:OT1>>
-     [[https://chris.beams.io/posts/git-commit/]]
-     This is an article talking about how to write good commits.
-     I thought it seemed interesting.
-
-*** Closed Tasks <<CR:AS:CT>>
-* Finance <<FN>>
-  :LOGBOOK:
-  :END:
-** Open Tasks <<FN:OT>>  
-*** TODO Instantiate this project <<FN:OT1>>
-   I'd like to put together reoccurring tasks and such in here.
-   Also work on integrating this with some sort of workflow with gnucash
-   Shouldn't be too bad, but I'm lazy
-
-* Programming <<PG>>
-  :LOGBOOK:
-  :END:
-** Game Engine <<PG1>>
-** Add X support CIRU <<PG2>>
-  CIRU is a "Checkpoint and Restore" applciation for linux.
-  What that means is that it takes all of the process state
-  and writes it to disk, and then can restore it at a later date.
-
-  I want to use CIRU to save current window layouts in xmonad to disk.
-  The problem with this is that the Xserver stores application state relating
-  to X that is not saved by CIRU. The solution would be to query the Xserver and
-  obtain all of the info relating to our application, then write that to disk upon
-  "checkpoint" and then upon "restore" we reset the X connection and provide it
-  with all of the state needed.
-
-  - TODO Read more documentation and revise steps below
-    So I think our best bet here is to look into how guievict did things.
-    There is a pdf with its documentation located here https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
-    Sadly the university that was hosting the source code and binaries took them down and all that's left is the original paper by Zandy and et al.
-    I honestly don't think it will be too bad, but only time will tell.
-  - TODO Collect application's xorg state NOTE I think the steps below need to be revised after finishing the prior todo [3/7]
-    - [X] Finish the Desktop maintenance entry pertaining to emacs and C
-    - [X] Setup project with xcb includes
-    - [X] Connect to xserver
-    - [ ] Figure out what screens my application has windows on
-    - [ ] Query xserver for all xclients
-    - [ ] Find all clients belonging to my application
-    - [ ] Enumerate all their attributes and properties
-    - [ ] Save attributes and properties to disk
-  - TODO Integrate collection into ciru
-  - TODO Restore application's xorg state
-  - TODO Integrate restore into ciru
-  :DOCUMENTATION:
-  - X.Org protocol implementation specification [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
-  - Zandy's guievict docs https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
-  :END:
-  :LOBGBOOK:
-  - [2020-07-01 Wed 12:23] *Initial analyzation of the problem*
-    The main issue we're trying to solve here is the collection of the xserver's
-    state and it's restoration.
-    I think I should break this problem down into a few parts.
-    The first step is the collection of all the application's xserver state.
-    Then we need to integrate the collection of that state into ciru's checkpointing process.
-    Second we need to find a way to restore the application's xserver state.
-    Then integrate the restoration of that state into ciru's restore process.
-    I'm going to add these tasks to the global problem description.
-  - [2020-07-01 Wed 12:35] *Discovery of xmove*
-    I found an application called xmove that kinda does what I want to do.
-    Here's a link to the documentation I'm currently reading I'll detail what I understand here as well
-    [[https://wenku.baidu.com/view/03699041336c1eb91a375d18.html?from=related]]
-    So xmove isn't exactly what I want, but I think it can put me on the right track. How xmove works is as a
-    psudo xserver. It sits between connections and the actual xserver and records their state as they send it to the
-    xserver. I don't want a second xserver. I just want something that querys the xserver for my applications state
-    and then restore's it later. I'm hoping in understanding how xmove works I can understand what state I would need
-    to query for to restore my application.
-  - [2020-07-01 Wed 14:50] *Sad news can't use xmove or xpra*.
-    I was hoping I could use xmove or xpra to accomplish my goals, but they don't really help me at all.
-    They kinda do what I need them to do, but in a way that I don't want. I want a more lightweight solution.
-    I don't want to have install and run an entire and seperate xserver to pull off this trick. So I'm going to have
-    to start reading some of the X11 documentation to understand what messages I'm going to have to send and such.
-  - [2020-07-01 Wed 15:04] *Decided to use xcb*
-    I'm still not sure on what all the state I need to capture is,
-    but I've decided to use xcb to communicate with xserver. I think
-    it's the most reasonable choice overall. I've also begun to setup a project
-    located here [[~/Code/CriuXserver]]
-  - [2020-07-01 Wed 16:05] *An issue I think I'll have to deal with*
-    So xserver gives each client a unique client id that it uses to communicate to xserver with.
-    The issue I think I'm going to run into is that when ciru checkpoints an application the application
-    is still in a state in which it is connected to the xserver and has a particular client id, but when I
-    resume it the xserver may have reserved that id for someone else and it may have to get a new id. So I need
-    to find an application agnostic way to have it relinquish it's old client id and accept a new one bestowed upon it
-    by the xserver.
-  - [2020-07-01 Wed 16:24] *On the issue and plan of attack*
-    I can't really start yet. I still need to work on figuring out how exactly
-    I'm going to tackle the problem. The issue I mentioned before is really throwing
-    a wrench in my plans. I'm still most likely going to use xcb, but I need to read more
-    documentation. I'm currently reading the following.
-    [[https://www.x.org/releases/current/doc/xproto/x11protocol.html]]
-  - [2020-07-02 Thu 07:39] *Guievict*
-    I found a piece of software called guievict that does exactly what I want to do.
-    Well I found mention of the software It seems to have disappeared from the internet only a few
-    mentions here and there. It used to have a wikipedia page, but it no longer does. I'm hoping it's
-    still around somewhere.
-    I think I'm going to have to reimplement it.
-    Here's the paper that describes it's implementation.
-    https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
-  :END:
-
-* Computer Maintenance <<CM>>
-  :LOGBOOK:
-  - [2020-07-01 Wed 11:27]
-    I need to fix whatevers messed up with my locale settings before I can run rofi. It crashes with an error indicating an issue with locale.
-  :END:
-** Open Tasks <<CM:OT>>
-*** TODO Cleanup laptop home folder <<CM:OT1>>
-    Before I can really start to work on [[CM:OT5]]
-    I need to clean up the mess that is my home folder
-    on my laptop. I should also finish [[CM:OT3]] as well.
-*** TODO Setup rofi instead of dmenu <<CM:OT2>>
-    - Rofi is installed, but still needs to be configured.
-*** TODO Finish cleaning up home folder <<CM:OT3>>
-*** TODO Finish configuring xmonad <<CM:OT4>>
-*** TODO Merge files from laptop with desktop <<CM:OT5>>
-*** TODO Go through systemd journal and fix any strange errors it reports <<CM:OT6>>
-*** TODO Android file transfer support <<CM:OT7>>
-*** TODO Get starcraft up and running <<CM:OT8>>
-    Wine has been emerged, but I have some sort of error when trying
-    to launch executables.
-*** TODO Cleanup my /boot folder <<CM:OT9>>
-*** TODO Setup amd microcode <<CM:OT10>>
-    - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
-*** TODO Fix cursor consitency <<CM:OT11>>
-    - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
-      I kinda like the look of the default X cursor so I want to go with it as my main cursor.
-** Closed Tasks <<CM:CT>>
-*** DONE Fix font in emacs <<CM:CT1>>
-*** DONE Setup C/C++ in emacs <<CM:CT2>>
-*** DONE Setup emacs to run as a daemon <<CM:CT3>>
-    CLOSED: [2020-07-02 Thu 16:31]
-
-*** DONE Fix locale settings <<CM:CT4>>
-    CLOSED: [2020-07-02 Thu 19:59]
