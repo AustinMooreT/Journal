@@ -6,22 +6,46 @@
     :LOGBOOK:
     :END:
     DEADLINE: <2020-07-31 Fri>
-    - [%] Apartment Prep.
-      - [ ] Clean Bathroom
-      - [ ] Clean kitchen
-      - [ ] Prepare storage closet
-      - [ ] Prepare clothes closet
-      - [ ] Prepare kitchen
-      - [ ] Get rid of extra stuff
-      - [ ] Packup what remains
-      - [ ] Fix the gold thingy on the closet door
-        - To fix it I think I need some glue
-      - [ ] Go through my closet and packup things
-*** TODO House scheduling <<LF:OT2>>
-    I believe when they prep the middle floor for the wood flooring
-    everyone has to be out of the house. I'm not sure what week that
-    is, but I should get that information from Rhonda and Josh, so I can
-    figure out a place to stay.
+**** Open Tasks <<LF:OT1:OT>>
+***** TODO Packup bathroom <<LF:OT1:OT1>>
+***** TODO Clean bathroom <<LF:OT1:OT2>>
+***** TODO Packup kitchen <<LF:OT1:OT3>>
+***** TODO Clean kitchen <<LF:OT1:OT4>>
+***** TODO Go through clothes <<LF:OT1:OT5>>
+***** TODO Pack clothes <<LF:OT1:OT6>>
+***** TODO Bring books to house <<LF:OT1:OT7>>
+***** TODO Bring Records to house <<LF:OT1:OT8>>
+***** TODO Packup games and trinkets <<LF:OT1:OT9>>
+***** TODO Take apart table and desk <<LF:OT1:OT10>>
+***** TODO Take extra books to goodwill <<LF:OT1:OT11>>
+***** TODO Fix the gold thingy on the closet door <<LF:OT1:OT12>>
+      - To fix it I think I need some glue
+***** TODO Go through my closet and packup things <<LF:OT1:OT13>>
+
+***** TODO Take electricity out of my name <<LF:OT1:OT14>>
+***** TODO Take internet out of my name <<LF:OT1:OT15>>
+***** TODO Packup Desktop computer <<LF:OT1:OT16>>
+      [[CM:OT12]] must be finished before this.
+**** Closed Tasks <<LF:OT1:CT>>
+***** DONE Gone through closet <<LF:OT1:CT1>>
+      CLOSED: [2020-07-19 Sun 14:12
+***** DONE Gone through books <<LF:OT1:CT2>>
+      CLOSED: [2020-07-19 Sun 14:13]
+***** DONE Packed up books <<LF:OT1:CT3>>
+      CLOSED: [2020-07-19 Sun 14:13]
+*** TODO House flooring <<LF:OT2>>
+    :LOGBOOK:
+    - [2020-07-19 Sun 14:01]
+      I asked Rhonda about this yesterday. She said that we had to be out of the house for 4 days, but dad said 1-2.
+      I'm unsure on the specifics, but I may need to find a place to st
+    :END:
+    - We have to be out of the house while the hardwood floors are done on the middle floor.
+    - When this is occuring is still tentative. Early August is best guess.
+    - I may still have to find a place to stay for potentially up to 4 days.  
+
+*** TODO Foot Doctor <<LF:OT3>>
+    SCHEDULED: <2020-07-29 Wed>
+    
 * Work <<WK>>
   :LOGBOOK:
   :END:
@@ -66,6 +90,8 @@
 *** TODO Fix cursor consitency <<CM:OT11>>
     - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
       I kinda like the look of the default X cursor so I want to go with it as my main cursor.
+*** TODO Setup wireless adapter <<CM:OT12>>
+    - This link has a driver for my adapter https://github.com/tpircher/rtl8814AU
 ** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
@@ -132,7 +158,6 @@
        I need to redownload the pdf from library genesis onto my desktop.
        I left off on the chapter about plato's philosiphy.
 ***** Closed Tasks <<CR:BK:OT1:CT>>
-
 **** TODO Intoduction To Smooth Manifolds by John M. Lee <<CR:BK:OT2>>
 **** TODO Discrete Differential Geometry <<CR:BK:OT3>>
 **** TODO The Geometry of Musical Rhythm by Godfried Toussiant <<CT:BK:OT4>>
@@ -235,12 +260,17 @@
   :END:
 * Journaling <<JR>>
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-07-19 Sun]
+    - [2020-07-19 Sun 14:24]
+      I decided to drink with Isaiah and Taylor last night. I got very drunk. I spilt my foot water. Felt bad and slept at their place.
+      I was very drunk. I wasn't too hungover when I got up this morning. Got mcdonalds then masturbated. Afterwards I began working on packing up
+      the apartment. I'm pretty hungry right now, but I kinda want to fast again. I'm taking a break at the moment from packing up all of my stuff.
+** Old Journals <<JR:OJ>>
 *** Journal [2020-07-17 Fri]
     - [2020-07-17 Fri 15:49]
       Learned a decent bit about music today from Pa. I currently have to pee. and want to read more.
       I think I'm going to start trying to read through classical pieces to try and get more familiar.
-** Old Journals <<JR:OJ>>
-*** [2020-07-16 Thu]
+*** Journal [2020-07-16 Thu]
     - [2020-07-16 Thu 11:01]
       I'm trying to remember where I left off on chronocling the foot thing.
       I guess I'll just wait till I get back to my place to write down some more of the details and put up pictures.
@@ -391,3 +421,4 @@
       [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto4.jpg]]
        [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto5.jpg]] 
       [[~/Pictures/2020-06-30/DeerPhotos/DeerPhoto6.jpg]]
+      
