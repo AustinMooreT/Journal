@@ -21,7 +21,6 @@
 ***** TODO Fix the gold thingy on the closet door <<LF:OT1:OT12>>
       - To fix it I think I need some glue
 ***** TODO Go through my closet and packup things <<LF:OT1:OT13>>
-
 ***** TODO Take electricity out of my name <<LF:OT1:OT14>>
 ***** TODO Take internet out of my name <<LF:OT1:OT15>>
 ***** TODO Packup Desktop computer <<LF:OT1:OT16>>
@@ -45,7 +44,8 @@
 
 *** TODO Foot Doctor <<LF:OT3>>
     SCHEDULED: <2020-07-29 Wed>
-    
+
+*** TODO Pay speeding ticket <<LF:OT4>>
 * Work <<WK>>
   :LOGBOOK:
   :END:
@@ -62,7 +62,6 @@
    I'd like to put together reoccurring tasks and such in here.
    Also work on integrating this with some sort of workflow with gnucash
    Shouldn't be too bad, but I'm lazy
-
 * Computer Maintenance <<CM>>
   :LOGBOOK:
   - [2020-07-01 Wed 11:27]
@@ -73,7 +72,10 @@
     Before I can really start to work on [[CM:OT5]]
     I need to clean up the mess that is my home folder
     on my laptop. I should also finish [[CM:OT3]] as well.
+    - [2020-07-20 Mon 07:25]
+      I've begun doing some work on this. Just deleting some old files in the root of /home/maurice/ , but it still needs more love.
 *** TODO Replace laptop fonts with the same font as my desktop <<CM:OT13>>
+*** TODO Setup emacs daemon on laptop
 *** TODO Setup rofi instead of dmenu <<CM:OT2>>
     - Rofi is installed, but still needs to be configured.
 *** TODO Finish cleaning up home folder <<CM:OT3>>
@@ -84,6 +86,7 @@
 *** TODO Get starcraft up and running <<CM:OT8>>
     Wine has been emerged, but I have some sort of error when trying
     to launch executables.
+*** TODO Get steam up and running <<CM:OT13>>
 *** TODO Cleanup my /boot folder <<CM:OT9>>
 *** TODO Setup amd microcode <<CM:OT10>>
     - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
@@ -92,6 +95,7 @@
       I kinda like the look of the default X cursor so I want to go with it as my main cursor.
 *** TODO Setup wireless adapter <<CM:OT12>>
     - This link has a driver for my adapter https://github.com/tpircher/rtl8814AU
+*** TODO Fix corrupted package on laptop <<CM:OT14>>
 ** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
@@ -127,6 +131,11 @@
       - [ ] Automatic logbook entry for any identifier.
 
 *** TODO work on solidifying project structure <<OM:OT2>>
+    Every heading defines an area. And within each area we have a task structure.
+    With the task structure an open task is also an area. This I think I'm set on.
+
+    Another type of structure I'd like to add to this system is a good resource bank. Like an area where I can pull knowledge
+    away from a specific task into a more global and searchable system.
     :LOGBOOK:
     - [2020-07-02 Thu 21:25]
       One idea that I just want to jot down, so I don't lose it is
@@ -160,7 +169,12 @@
 ***** Closed Tasks <<CR:BK:OT1:CT>>
 **** TODO Intoduction To Smooth Manifolds by John M. Lee <<CR:BK:OT2>>
 **** TODO Discrete Differential Geometry <<CR:BK:OT3>>
-**** TODO The Geometry of Musical Rhythm by Godfried Toussiant <<CT:BK:OT4>>
+**** TODO The Geometry of Musical Rhythm by Godfried Toussiant <<CR:BK:OT4>>
+**** TODO The Hitch Hikers Guide to the Galaxy by Douglas Adams <<CR:BK:OT5>>
+     - [2020-07-20 Mon 07:24]
+       Re-reading through the book in the evenings. I forgot how much I liked this book.
+       I'm just at chapter 4 now where Arther and Ford finished up at the pub and are now getting ready to board
+       the Vogon destructor fleet.
 *** Closed Tasks <<CR:BK:CT>>
 ** Articles <<CR:AS>>
 *** Open Tasks <<CR:AS:OT>>
@@ -168,7 +182,8 @@
      [[https://chris.beams.io/posts/git-commit/]]
      This is an article talking about how to write good commits.
      I thought it seemed interesting.
-
+**** TODO Etsy's Immutable Documentation <<CR:AS:OT2>>
+     https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/
 *** Closed Tasks <<CR:AS:CT>>
 * Programming <<PG>>
   :LOGBOOK:
@@ -185,6 +200,21 @@
   obtain all of the info relating to our application, then write that to disk upon
   "checkpoint" and then upon "restore" we reset the X connection and provide it
   with all of the state needed.
+
+  NOTE I'm going to leave everything as is in here, but I'm going to say a few things about why this is not
+  really doable. So when an X application is running it has a connection with the Xserver. This connection consists of
+  a unique ID that the Xserver uses to communicate to the application and vice versa. The Xserver also contains some amount of application
+  state that is detailed in the X standard and also potentially some set of extended state that comes from extensions to the X server. Details
+  on extensions are all over the place and hard to figure out. Basically what we want to happen is have an application disconnect and reconnect to a
+  potentially new Xserver. How would someone do this? Well my idea is almost the same as Guievict's. First you specify where the Xserver is listening;
+  that's either a tcp/ip port or a unix socket. Then you do some work to find out all of your applications unique IDs with the Xserver. There could be
+  one or many IDs that your application is using. You start intercepting traffic and talking to the application as if you were the Xserver (have it hide itself or
+  something), then you enumerate the extensions it's using and offload all state that the application has tied up with the Xserver to disk. Then disconnect on the applications
+  behalf. So now the application is running talking to your application and thinking it's the Xserver. I think everything up to this point is feasible, but
+  very difficult. Now you use CIRU to checkpoint the application+your program. Now on the restore you must specify where the Xserver is listening again.
+  Check to make sure it supports all the extensions your application had, then start negotiating connections and restoring state for your application.
+  Once everything is restored (which is no trivial feat) you must somehow get your application to change the Id it is using to talk to the Xserver (or leave your
+  application running ontop of the original at all times to constantly translate Xserver requests for it. << This seems like a really good idea imo.
 
   - TODO Read more documentation and revise steps below
     So I think our best bet here is to look into how guievict did things.
@@ -260,12 +290,18 @@
   :END:
 * Journaling <<JR>>
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-07-20 Mon]
+    - [2020-07-20 Mon 07:09]
+      Woke up early this morning. I'm hoping being home is going to make it easy to get a solid sleep routine down.
+      I'm hoping to hear back about a job this week. Fingers crossed. I think I'll leave for my apartment around 9.
+      My goal is to get the clothes situation figured out and potentially the kitchen. I would love to bring my desk over too,
+      but I want to figure out if I can set it up first.
+** Old Journals <<JR:OJ>>
 *** Journal [2020-07-19 Sun]
     - [2020-07-19 Sun 14:24]
       I decided to drink with Isaiah and Taylor last night. I got very drunk. I spilt my foot water. Felt bad and slept at their place.
       I was very drunk. I wasn't too hungover when I got up this morning. Got mcdonalds then masturbated. Afterwards I began working on packing up
-      the apartment. I'm pretty hungry right now, but I kinda want to fast again. I'm taking a break at the moment from packing up all of my stuff.
-** Old Journals <<JR:OJ>>
+      the apartment. I'm pretty hungry right now, but I kinda want to fast again. I'm taking a break at the moment from packing up all of my stuff.   
 *** Journal [2020-07-17 Fri]
     - [2020-07-17 Fri 15:49]
       Learned a decent bit about music today from Pa. I currently have to pee. and want to read more.
