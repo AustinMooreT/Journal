@@ -46,6 +46,11 @@
     SCHEDULED: <2020-07-29 Wed>
 
 *** TODO Pay speeding ticket <<LF:OT4>>
+*** TODO Clean outside of car <<LF:OT5>>
+*** TODO Clean inside of car <<LF:OT6>>
+*** TODO Buy new undershirts <<LF:OT7>>
+*** TODO Go through email <<LF:OT8>>
+    Clean out inboxes and unsubscribe
 * Work <<WK>>
   :LOGBOOK:
   :END:
@@ -153,6 +158,7 @@
     - [2020-07-16 Thu 11:17]
       The status of this project is kinda ethereal, so I need to really put together some notes on what I should be doing with this project.
     :END:
+*** TODO Add task structure to the programming area <<OM:OT3>>
 ** Closed Tasks <<OM:CT>>
 * Reading <<CR>>
   :LOGBOOK:
@@ -184,6 +190,8 @@
      I thought it seemed interesting.
 **** TODO Etsy's Immutable Documentation <<CR:AS:OT2>>
      https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/
+**** TODO Read about Polly <<CR:AS:OT3>>
+     https://polly.llvm.org/
 *** Closed Tasks <<CR:AS:CT>>
 * Programming <<PG>>
   :LOGBOOK:
