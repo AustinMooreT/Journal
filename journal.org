@@ -7,24 +7,29 @@
     :END:
     DEADLINE: <2020-07-31 Fri>
 **** Open Tasks <<LF:OT1:OT>>
+***** TODO Remove moldy junk from fridge <<LF:OT1:OT19>>
+***** TODO Clean last few dirty dishes <<LF:OT1:OT17>>
+***** TODO Throw away remaining junk in kitchen <<LF:OT1:OT18>>
+***** TODO Packup remaining kitchen stuff <<LF:OT1:OT20>>
+***** TODO Packup coats and ties <<LF:OT1:OT21>>
 ***** TODO Packup bathroom <<LF:OT1:OT1>>
-***** TODO Clean bathroom <<LF:OT1:OT2>>
-***** TODO Packup kitchen <<LF:OT1:OT3>>
-***** TODO Clean kitchen <<LF:OT1:OT4>>
-***** TODO Go through clothes <<LF:OT1:OT5>>
-***** TODO Pack clothes <<LF:OT1:OT6>>
-***** TODO Bring books to house <<LF:OT1:OT7>>
-***** TODO Bring Records to house <<LF:OT1:OT8>>
-***** TODO Packup games and trinkets <<LF:OT1:OT9>>
-***** TODO Take apart table and desk <<LF:OT1:OT10>>
-***** TODO Take extra books to goodwill <<LF:OT1:OT11>>
-***** TODO Fix the gold thingy on the closet door <<LF:OT1:OT12>>
-      - To fix it I think I need some glue
-***** TODO Go through my closet and packup things <<LF:OT1:OT13>>
-***** TODO Take electricity out of my name <<LF:OT1:OT14>>
-***** TODO Take internet out of my name <<LF:OT1:OT15>>
 ***** TODO Packup Desktop computer <<LF:OT1:OT16>>
       [[CM:OT12]] must be finished before this.
+***** TODO Take apart table <<LF:OT1:OT22>>
+***** TODO Take apart bed <<LF:OT1:OT23>>
+***** TODO clean out back of car <<LF:OT1:OT24>>
+***** TODO Packup car with kitchen/coat/bath, desk, computer, and bedframe <<LF:OT1:OT25>>
+***** TODO Packup car with books/goodwill items <<LF:OT1:OT26>>
+***** TODO Thorwout trash <<LF:OT1:OT30>>
+***** TODO Clean apartment <<LF:OT1:OT27>>
+***** TODO Bring books to house <<LF:OT1:OT7>>
+***** TODO Bring table to house <<LF:OT1:OT28>>
+***** TODO Bring Bed to house <<LF:OT1:OT29>>
+***** TODO Take books to half priced books <<LF:OT1:OT11>>
+***** TODO Fix the gold thingy on the closet door <<LF:OT1:OT12>>
+      - To fix it I think I need some glue
+***** TODO Take electricity out of my name <<LF:OT1:OT14>>
+***** TODO Take internet out of my name <<LF:OT1:OT15>>
 **** Closed Tasks <<LF:OT1:CT>>
 ***** DONE Gone through closet <<LF:OT1:CT1>>
       CLOSED: [2020-07-19 Sun 14:12
@@ -32,6 +37,24 @@
       CLOSED: [2020-07-19 Sun 14:13]
 ***** DONE Packed up books <<LF:OT1:CT3>>
       CLOSED: [2020-07-19 Sun 14:13]
+***** DONE Go through clothes <<LF:OT1:CT4>>
+      CLOSED: [2020-07-20 Mon 15:14]
+***** DONE Pack clothes <<LF:OT1:CT5>>
+      CLOSED: [2020-07-20 Mon 15:14]
+***** DONE Packup games and trinkets <<LF:OT1:CT6>>
+      CLOSED: [2020-07-20 Mon 15:18]
+***** DONE Bring Records to house <<LF:OT1:CT7>>
+      CLOSED: [2020-07-21 Tue 08:30]
+***** DONE Bring clothes to the house <<LF:OT1:CT8>>
+      CLOSED: [2020-07-21 Tue 08:30]
+***** DONE Packup kitchen <<LF:OT1:CT9>>
+      CLOSED: [2020-07-21 Tue 12:19]
+***** DONE Take apart desk <<LF:OT1:CT10>>
+      CLOSED: [2020-07-21 Tue 12:19]
+      I took apart half of my desk and stored it in my closet.
+      The other half still has my desktop.
+***** DONE Go through my closet and packup things <<LF:OT1:CT11>>
+      CLOSED: [2020-07-21 Tue 12:20]
 *** TODO House flooring <<LF:OT2>>
     :LOGBOOK:
     - [2020-07-19 Sun 14:01]
@@ -44,13 +67,20 @@
 
 *** TODO Foot Doctor <<LF:OT3>>
     SCHEDULED: <2020-07-29 Wed>
-
 *** TODO Pay speeding ticket <<LF:OT4>>
+    DEADLINE: <2020-08-31 Mon>
 *** TODO Clean outside of car <<LF:OT5>>
 *** TODO Clean inside of car <<LF:OT6>>
 *** TODO Buy new undershirts <<LF:OT7>>
 *** TODO Go through email <<LF:OT8>>
     Clean out inboxes and unsubscribe
+*** TODO Buy stuff for cleaning pit stains <<LF:OT12>>
+*** TODO Wash clothes in containers <<LF:OT9>>
+    DEPENDS [[LF:OT12]]
+*** TODO Put away clothes <<LF:OT10>>
+    DEPENDS [[LF:OT9]]
+    Put away all of my hanging clothes into Jordan's room.
+*** TODO Deal with insurance <<LF:OT11>>
 * Work <<WK>>
   :LOGBOOK:
   :END:
@@ -190,9 +220,10 @@
      I thought it seemed interesting.
 **** TODO Etsy's Immutable Documentation <<CR:AS:OT2>>
      https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/
-**** TODO Read about Polly <<CR:AS:OT3>>
-     https://polly.llvm.org/
 *** Closed Tasks <<CR:AS:CT>>
+**** DONE Read about Polly <<CR:AS:CT1>>
+     CLOSED: [2020-07-21 Tue 08:34]
+     https://polly.llvm.org/
 * Programming <<PG>>
   :LOGBOOK:
   :END:
@@ -298,13 +329,20 @@
   :END:
 * Journaling <<JR>>
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-07-21 Tue]
+    - [2020-07-21 Tue 08:35]
+      Good morning Austin. I'm pretty tired today. Made an ok cup of coffee. I need to go out and do some shopping either today or tomorrow.
+      I should go to like a kohls or something to get more undershirts. I kinda want to see where /r/malefashion gets their undershirts. I also need
+      to see what I can use to get pit stains out of shirts. I think I'm going to try oxyclean. Still working on moving out of the apartment right now.
+      I'm kinda starting to see how the journal looks over the course of a month. I'm actually suprised it's been that long. It's also neat to see how
+      information kinda sticks after a while. Welp I think I'm going to get off of here finish my coffee, then go back to my apartment again.
+** Old Journals <<JR:OJ>>
 *** Journal [2020-07-20 Mon]
     - [2020-07-20 Mon 07:09]
       Woke up early this morning. I'm hoping being home is going to make it easy to get a solid sleep routine down.
       I'm hoping to hear back about a job this week. Fingers crossed. I think I'll leave for my apartment around 9.
       My goal is to get the clothes situation figured out and potentially the kitchen. I would love to bring my desk over too,
-      but I want to figure out if I can set it up first.
-** Old Journals <<JR:OJ>>
+      but I want to figure out if I can set it up first.   
 *** Journal [2020-07-19 Sun]
     - [2020-07-19 Sun 14:24]
       I decided to drink with Isaiah and Taylor last night. I got very drunk. I spilt my foot water. Felt bad and slept at their place.
