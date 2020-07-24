@@ -98,7 +98,7 @@
     - I'm going to see how much it is to stay part time this semester, and keep looking
       for jobs. If I can get something good and do classes I'll stay enrolled otherwise
       I drop out.
-*** TODO Organize paperwork on desk <<LF:OT14>>
+*** TODO Figure out school insurance <<LF:OT14>>
 ** Closed Tasks <<LF:CT>>
 *** DONE Put away clothes <<LF:CT1>>
     CLOSED: [2020-07-22 Wed 13:36]
@@ -108,10 +108,8 @@
     - Need to buy oxyclean
 *** DONE Clothes <<LF:CT3>>
     CLOSED: [2020-07-23 Thu 20:51]
-**** Open Tasks <<LF:OT14:OT>>
-***** TODO Remove oxyclean clothes from tub <<LF:OT14:OT1>>
-      Put them back in the hamper wet. I'll deal with them when I get bck
-***** TODO Wash clothes <<LF:OT14:OT2>>
+*** DONE Organize paperwork on desk <<LF:CT4>>
+    CLOSED: [2020-07-24 Fri 09:08]
 * Work <<WK>>
 ** Open Tasks
 *** TODO Update Linkedin
@@ -140,12 +138,6 @@
     Are high priority tomorrow morning and should be completed in that order.
 ** Open Tasks <<CM:OT>>
 *** TODO Physically clean laptop <<CM:OT16>>
-*** TODO Setup wireless adapter <<CM:OT12>>
-    - This link has a driver for my adapter https://github.com/tpircher/rtl8814AU
-*** TODO Setup rofi instead of dmenu <<CM:OT2>>
-    - Rofi is installed, but still needs to be configured.
-    - I think there's an issue with my locale settings
-*** TODO Match chrome theme on desktop <<CM:OT17>>
 *** TODO Replace laptop fonts with the same font as my desktop <<CM:OT13>>
 *** TODO Setup emacs daemon on laptop
 *** TODO Finish cleaning up home folder <<CM:OT3>>
@@ -165,6 +157,9 @@
       I kinda like the look of the default X cursor so I want to go with it as my main cursor.
 *** TODO Fix corrupted package on laptop <<CM:OT14>>
 *** TODO Come up with way to sync laptop home folder with desktop <<CM:OT15>>
+*** TODO Uninstall 8812au module on desktop <<CM:OT18>>
+    I installed this when trying to setup my wireless adapter.
+    I ended up installing 88XXau instead.
 ** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
@@ -173,13 +168,24 @@
 
 *** DONE Fix locale settings <<CM:CT4>>
     CLOSED: [2020-07-02 Thu 19:59]
-*** DONE Cleanup laptop home folder <<CM:OT5>>
+*** DONE Cleanup laptop home folder <<CM:CT5>>
     CLOSED: [2020-07-21 Tue 15:41]
     Before I can really start to work on [[CM:OT5]]
     I need to clean up the mess that is my home folder
     on my laptop. I should also finish [[CM:OT3]] as well.
     - [2020-07-20 Mon 07:25]
       I've begun doing some work on this. Just deleting some old files in the root of /home/maurice/ , but it still needs more love.
+*** DONE Setup wireless adapter <<CM:CT6>>
+    CLOSED: [2020-07-24 Fri 09:21]
+    - This link has a driver for my adapter https://github.com/tpircher/rtl8814AU
+    - I Didn't use the driver above it was busted. I used this one instead I also blacklisted the 8814AU module in my system since I didn't want to figure out how to uninstall it
+      https://github.com/aircrack-ng/rtl8812au
+*** DONE Match chrome theme on desktop <<CM:CT7>>
+    CLOSED: [2020-07-24 Fri 09:45]
+*** DONE Setup rofi instead of dmenu <<CM:OT2>>
+    CLOSED: [2020-07-24 Fri 12:14]
+    - Rofi is installed, but still needs to be configured.
+    - I think there's an issue with my locale settings
 * Org Maintenance <<OM>>
   :LOGBOOK:
   - [2020-07-02 Thu 21:21]
@@ -389,6 +395,41 @@
       I continued playing around with this. Idris is a tough one to figure out. It's hard to get your types to line up correctly. I like the spirit of it though.
     - [2020-07-23 Thu 07:13]
       I kinda want to read more about rings. Because I think the rhythm structures I'm building resemble one.
+*** TODO Investigate wireless driver bug.
+**** Notes
+     - [2020-07-24 Fri 14:11]
+
+       This is the stack trace.
+       Jul 24 13:47:05 natasha kernel: ------------[ cut here ]------------
+       Jul 24 13:47:05 natasha kernel: WARNING: CPU: 0 PID: 145019 at net/wireless/nl80211.c:3157 nl80211_send_c>
+       Jul 24 13:47:05 natasha kernel: Modules linked in: 88XXau(O) efivarfs
+       Jul 24 13:47:05 natasha kernel: CPU: 0 PID: 145019 Comm: RTW_CMD_THREAD Tainted: G        W  O      5.4.4>
+       Jul 24 13:47:05 natasha kernel: Hardware name: MSI MS-7A33/X370 SLI PLUS (MS-7A33), BIOS 3.60 09/20/2017
+       Jul 24 13:47:05 natasha kernel: RIP: 0010:nl80211_send_chandef+0x146/0x160
+       Jul 24 13:47:05 natasha kernel: Code: 00 00 be a1 00 00 00 48 89 ef 89 44 24 04 e8 31 ac 7e ff 85 c0 0f 84 7b ff ff ff 41 bc 97 ff ff ff e9 70 ff ff ff 31 c0 eb a7 <0f> 0b 41 bc ea ff ff ff e9 5f ff ff ff e8 48 7b ff ff ff 41 bc 97 ff ff ff e9 70 ff ff ff 31 c0 eb a7 <0f> 0b 41 bc ea ff ff ff e9 5f ff ff ff e8 48 24 45 ff 0f 1f 84 00
+       Jul 24 13:47:05 natasha kernel: RSP: 0018:ffffad854270fd78 EFLAGS: 00010246
+       Jul 24 13:47:05 natasha kernel: RAX: 0000000000000000 RBX: ffffad854270fe08 RCX: 00000000ffff32a1
+       Jul 24 13:47:05 natasha kernel: RDX: 0000000000001600 RSI: 0000000000000000 RDI: 0000000000000100
+       Jul 24 13:47:05 natasha kernel: RBP: ffff99049062ef00 R08: 0000000000000000 R09: ffff9903ee17a01c
+       Jul 24 13:47:05 natasha kernel: R10: 000000000000001a R11: 0000000000000001 R12: ffffad854270fe08
+       Jul 24 13:47:05 natasha kernel: R13: 0000000000000000 R14: ffff99049062ef00 R15: ffff9903ee17a014
+       Jul 24 13:47:05 natasha kernel: FS:  0000000000000000(0000) GS:ffff990496c00000(0000) knlGS:0000000000000>
+       Jul 24 13:47:05 natasha kernel: CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+       Jul 24 13:47:05 natasha kernel: CR2: 00007efed0a9d2b0 CR3: 00000001ce20a000 CR4: 00000000003406f0
+       Jul 24 13:47:05 natasha kernel: Call Trace:
+       Jul 24 13:47:05 natasha kernel:  nl80211_ch_switch_notify.constprop.0+0xc7/0x160
+       Jul 24 13:47:05 natasha kernel:  rtw_cfg80211_ch_switch_notify+0x116/0x140 [88XXau]
+       Jul 24 13:47:05 natasha kernel:  join_cmd_hdl+0x27f/0x3d0 [88XXau]
+       Jul 24 13:47:05 natasha kernel:  rtw_cmd_thread+0x340/0x4f0 [88XXau]
+       Jul 24 13:47:05 natasha kernel:  ? createbss_hdl+0x120/0x120 [88XXau]
+       Jul 24 13:47:05 natasha kernel:  kthread+0xfd/0x130
+       Jul 24 13:47:05 natasha kernel:  ? rtw_stop_cmd_thread+0x40/0x40 [88XXau]
+       Jul 24 13:47:05 natasha kernel:  ? kthread_park+0x80/0x80
+       Jul 24 13:47:05 natasha kernel:  ret_from_fork+0x1f/0x30
+       Jul 24 13:47:05 natasha kernel: ---[ end trace 37421195d17a3881 ]---
+
+       
+
 * Journaling <<JR>>
 ** Titled Entries
    [[JR:CJ:"The Mind-Killer"]]
