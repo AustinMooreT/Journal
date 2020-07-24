@@ -1,23 +1,18 @@
 * Life <<LF>>
-  :LOGBOOK:
-  :END:
+** Notes <<LF:NT>>
+   - [2020-07-23 Thu 20:53] <<LF:NT1>>
+     Tomorrow I want to accomplish everything in [[CM:NT1]] and [[LF:OT14]]
+   - [2020-07-23 Thu 20:59] <<LF:NT2>>
+     Don't forget about saving the dirty shirts that we want to use oxyclean on again.
 ** Open Tasks <<LF:OT>>
-*** TODO Prepare to move out <<LF:OT1>>
+*** TODO Move out of Oxford Apartment<<LF:OT1>>
     :LOGBOOK:
     :END:
     DEADLINE: <2020-07-31 Fri>
 **** Open Tasks <<LF:OT1:OT>>
 ***** TODO Remove moldy junk from fridge <<LF:OT1:OT19>>
-***** TODO Clean last few dirty dishes <<LF:OT1:OT17>>
 ***** TODO Throw away remaining junk in kitchen <<LF:OT1:OT18>>
-***** TODO Packup remaining kitchen stuff <<LF:OT1:OT20>>
-***** TODO Packup coats and ties <<LF:OT1:OT21>>
-***** TODO Packup bathroom <<LF:OT1:OT1>>
-***** TODO Packup Desktop computer <<LF:OT1:OT16>>
-      [[CM:OT12]] must be finished before this.
 ***** TODO Take apart table <<LF:OT1:OT22>>
-***** TODO Take apart bed <<LF:OT1:OT23>>
-***** TODO clean out back of car <<LF:OT1:OT24>>
 ***** TODO Packup car with kitchen/coat/bath, desk, computer, and bedframe <<LF:OT1:OT25>>
 ***** TODO Packup car with books/goodwill items <<LF:OT1:OT26>>
 ***** TODO Thorwout trash <<LF:OT1:OT30>>
@@ -55,6 +50,21 @@
       The other half still has my desktop.
 ***** DONE Go through my closet and packup things <<LF:OT1:CT11>>
       CLOSED: [2020-07-21 Tue 12:20]
+***** DONE Clean last few dirty dishes <<LF:OT1:CT12>>
+      CLOSED: [2020-07-23 Thu 13:08]
+***** DONE Packup remaining kitchen stuff <<LF:OT1:CT13>>
+      CLOSED: [2020-07-23 Thu 13:08]
+***** DONE Packup coats and ties <<LF:OT1:CT14>>
+      CLOSED: [2020-07-23 Thu 13:08]
+***** DONE Packup bathroom <<LF:OT1:CT15>>
+      CLOSED: [2020-07-23 Thu 13:08]
+***** DONE Packup Desktop computer <<LF:OT1:CT16>>
+      CLOSED: [2020-07-23 Thu 13:08]
+      [[CM:OT12]] must be finished before this.
+***** DONE Take apart bed <<LF:OT1:CT17>>
+      CLOSED: [2020-07-23 Thu 13:09]
+***** DONE clean out back of car <<LF:OT1:CT18>>
+      CLOSED: [2020-07-23 Thu 13:09]
 *** TODO House flooring <<LF:OT2>>
     :LOGBOOK:
     - [2020-07-19 Sun 14:01]
@@ -74,45 +84,70 @@
 *** TODO Buy new undershirts <<LF:OT7>>
 *** TODO Go through email <<LF:OT8>>
     Clean out inboxes and unsubscribe
-*** TODO Buy stuff for cleaning pit stains <<LF:OT12>>
-*** TODO Wash clothes in containers <<LF:OT9>>
-    DEPENDS [[LF:OT12]]
-*** TODO Put away clothes <<LF:OT10>>
-    DEPENDS [[LF:OT9]]
-    Put away all of my hanging clothes into Jordan's room.
 *** TODO Deal with insurance <<LF:OT11>>
+*** TODO Figure out canoeing <<LF:OT12>>
+    SCHEDULED: <2020-07-26 Sun>
+    Chris said yes still waiting to hear about Israel and Ben.
+    It'll cost $21 with a $20 cash depoisit on the equipment
+
+    I tried calling, but jost got a busy tone. I'll try again in a bit.
+    - Little Miami Canoe
+      Phone Number: 513-899-3616
+      Address: Little Miami Canoe Rental, 219 Mill St, Morrow, OH 45152
+*** TODO Figure out school <<LF:OT13>>
+    - I'm going to see how much it is to stay part time this semester, and keep looking
+      for jobs. If I can get something good and do classes I'll stay enrolled otherwise
+      I drop out.
+*** TODO Organize paperwork on desk <<LF:OT14>>
+** Closed Tasks <<LF:CT>>
+*** DONE Put away clothes <<LF:CT1>>
+    CLOSED: [2020-07-22 Wed 13:36]
+    Put away all of my hanging clothes into Jordan's room.
+*** DONE Buy stuff for cleaning pit stains <<LF:CT2>>
+    CLOSED: [2020-07-22 Wed 19:13]
+    - Need to buy oxyclean
+*** DONE Clothes <<LF:CT3>>
+    CLOSED: [2020-07-23 Thu 20:51]
+**** Open Tasks <<LF:OT14:OT>>
+***** TODO Remove oxyclean clothes from tub <<LF:OT14:OT1>>
+      Put them back in the hamper wet. I'll deal with them when I get bck
+***** TODO Wash clothes <<LF:OT14:OT2>>
 * Work <<WK>>
-  :LOGBOOK:
-  :END:
+** Open Tasks
+*** TODO Update Linkedin
+*** TODO Setup indeed account
+*** TODO Revise resume again
+** Closed Tasks
 ** Leidos
    They sent me an email pertaining to the employee referall program. I talked to someone in HR, and am waiting to hear back.
 ** Cintas
    I basically gave them the cold shoulder. I hope that information doesn't come around
    to Dad, but we will see.
 * Finance <<FN>>
-  :LOGBOOK:
-  :END:
 ** Open Tasks <<FN:OT>>
-*** TODO Instantiate this project <<FN:OT1>>
+*** TODO Finish labeling all of the old transactions <<FN:OT2>>
+*** TODO Add acount for apartment rent <<FN:OT3>>
+** Closed Tasks
+*** DONE Instanitate this project <<FN:CT1>>
+    CLOSED: [2020-07-21 Tue 18:33]
    I'd like to put together reoccurring tasks and such in here.
    Also work on integrating this with some sort of workflow with gnucash
    Shouldn't be too bad, but I'm lazy
 * Computer Maintenance <<CM>>
-  :LOGBOOK:
-  - [2020-07-01 Wed 11:27]
-    I need to fix whatevers messed up with my locale settings before I can run rofi. It crashes with an error indicating an issue with locale.
-  :END:
+** Notes <<CM:NT:>>
+  - [2020-07-23 Thu 20:49] <<CM:NT1>>
+    Tasks [[C:OT16]], [[CM:OT12]], [[CM:OT2]], [[CM:OT17]]
+    Are high priority tomorrow morning and should be completed in that order.
 ** Open Tasks <<CM:OT>>
-*** TODO Cleanup laptop home folder <<CM:OT1>>
-    Before I can really start to work on [[CM:OT5]]
-    I need to clean up the mess that is my home folder
-    on my laptop. I should also finish [[CM:OT3]] as well.
-    - [2020-07-20 Mon 07:25]
-      I've begun doing some work on this. Just deleting some old files in the root of /home/maurice/ , but it still needs more love.
-*** TODO Replace laptop fonts with the same font as my desktop <<CM:OT13>>
-*** TODO Setup emacs daemon on laptop
+*** TODO Physically clean laptop <<CM:OT16>>
+*** TODO Setup wireless adapter <<CM:OT12>>
+    - This link has a driver for my adapter https://github.com/tpircher/rtl8814AU
 *** TODO Setup rofi instead of dmenu <<CM:OT2>>
     - Rofi is installed, but still needs to be configured.
+    - I think there's an issue with my locale settings
+*** TODO Match chrome theme on desktop <<CM:OT17>>
+*** TODO Replace laptop fonts with the same font as my desktop <<CM:OT13>>
+*** TODO Setup emacs daemon on laptop
 *** TODO Finish cleaning up home folder <<CM:OT3>>
 *** TODO Finish configuring xmonad <<CM:OT4>>
 *** TODO Merge files from laptop with desktop <<CM:OT5>>
@@ -128,9 +163,8 @@
 *** TODO Fix cursor consitency <<CM:OT11>>
     - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
       I kinda like the look of the default X cursor so I want to go with it as my main cursor.
-*** TODO Setup wireless adapter <<CM:OT12>>
-    - This link has a driver for my adapter https://github.com/tpircher/rtl8814AU
 *** TODO Fix corrupted package on laptop <<CM:OT14>>
+*** TODO Come up with way to sync laptop home folder with desktop <<CM:OT15>>
 ** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
@@ -139,6 +173,13 @@
 
 *** DONE Fix locale settings <<CM:CT4>>
     CLOSED: [2020-07-02 Thu 19:59]
+*** DONE Cleanup laptop home folder <<CM:OT5>>
+    CLOSED: [2020-07-21 Tue 15:41]
+    Before I can really start to work on [[CM:OT5]]
+    I need to clean up the mess that is my home folder
+    on my laptop. I should also finish [[CM:OT3]] as well.
+    - [2020-07-20 Mon 07:25]
+      I've begun doing some work on this. Just deleting some old files in the root of /home/maurice/ , but it still needs more love.
 * Org Maintenance <<OM>>
   :LOGBOOK:
   - [2020-07-02 Thu 21:21]
@@ -189,6 +230,10 @@
       The status of this project is kinda ethereal, so I need to really put together some notes on what I should be doing with this project.
     :END:
 *** TODO Add task structure to the programming area <<OM:OT3>>
+*** TODO Cleanup the computer maintenance area <<OM:OT4>>
+    I'd like to seperate tasks for desktop and laptop from one another.
+*** TODO Notes structure <<OM:OT5>>
+    I'd like to figure out a good way to structure notes in an area and then migrate the old logbooks into there.
 ** Closed Tasks <<OM:CT>>
 * Reading <<CR>>
   :LOGBOOK:
@@ -211,6 +256,11 @@
        Re-reading through the book in the evenings. I forgot how much I liked this book.
        I'm just at chapter 4 now where Arther and Ford finished up at the pub and are now getting ready to board
        the Vogon destructor fleet.
+     - [2020-07-21 Tue 20:53]
+       Yesterday I got up to chapter 8 Zaphod stole the heart of gold. I forgot that Trillian looked Arabic.
+       Arthur and Ford are still on the Vogon ship. I forget the guys name something Jeltz? He's the vogon in
+       charge. I like the whole bit after he reads them poetry where Ford is trying to convince their escort
+       that there is more to life than escorting prisoners and yelling, but fails.
 *** Closed Tasks <<CR:BK:CT>>
 ** Articles <<CR:AS>>
 *** Open Tasks <<CR:AS:OT>>
@@ -224,11 +274,15 @@
 **** DONE Read about Polly <<CR:AS:CT1>>
      CLOSED: [2020-07-21 Tue 08:34]
      https://polly.llvm.org/
+**** DONE Busy Beaver Survey by Scott Aranson <<CR:AS:CT2>>
+     This was a fun little read going over some of the cool things about the busy beaver function.
+     My favorite part was with the functions that grow faster than the busy beaver function.
 * Programming <<PG>>
   :LOGBOOK:
   :END:
-** Game Engine <<PG1>>
-** Add X support CIRU <<PG2>>
+** Open Tasks <<PG:OT>>
+*** TODO Game Engine <<PG:OT1>>
+*** TODO Add X support CIRU <<PG:OT2>>
   CIRU is a "Checkpoint and Restore" applciation for linux.
   What that means is that it takes all of the process state
   and writes it to disk, and then can restore it at a later date.
@@ -327,8 +381,32 @@
     Here's the paper that describes it's implementation.
     https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
   :END:
+*** TODO Idris Music <<PG:OT3>>
+    - [2020-07-21 Tue 20:55]
+      I basically just made a file. I want to work out a good definition (Type Signature) for Tones and Rhythm.
+      So I can have a good foundation for building bigger tools.
+    - [2020-07-22 Wed 21:22]
+      I continued playing around with this. Idris is a tough one to figure out. It's hard to get your types to line up correctly. I like the spirit of it though.
+    - [2020-07-23 Thu 07:13]
+      I kinda want to read more about rings. Because I think the rhythm structures I'm building resemble one.
 * Journaling <<JR>>
+** Titled Entries
+   [[JR:CJ:"The Mind-Killer"]]
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-07-23 Thu]
+    - [2020-07-23 Thu 20:56]
+      I don't have much to write today. Got the majority of the stuff moved over from my apartment. I had slept pretty poorly the other night.
+      I setup my desk and am hoping my parents are going to let me keep it the way that I have it. I like having a little bit of office space where I can think.
+      I really wish I would stop plucking beard hairs out of my chin. Also my fingers hurt I think it's from the oxyclean. It did a good job on cleaning the pit
+      stains out of my shirts. I should probably add another reminder about that. Welp I'm going to go brush my teeth and read. Night.
+** Old Journals <<JR:OJ>>
+*** Journal [2020-07-22 Wed]
+    - [2020-07-22 Wed 10:45]
+      Just woke up fully about an hour ago. I slept like 12 hours last night. Not sure what caused that I'm thinking either the exercise
+      That I've been getting, or the late night cookies I had. I'm really stressed about what I should do about school. We need to sit down
+      either today or tomorrow and figure that out.
+    - [2020-07-22 Wed 13:37]
+      I put up my clothes. Today has been pretty lazy. It looks like it rained outside as well.
 *** Journal [2020-07-21 Tue]
     - [2020-07-21 Tue 08:35]
       Good morning Austin. I'm pretty tired today. Made an ok cup of coffee. I need to go out and do some shopping either today or tomorrow.
@@ -336,7 +414,30 @@
       to see what I can use to get pit stains out of shirts. I think I'm going to try oxyclean. Still working on moving out of the apartment right now.
       I'm kinda starting to see how the journal looks over the course of a month. I'm actually suprised it's been that long. It's also neat to see how
       information kinda sticks after a while. Welp I think I'm going to get off of here finish my coffee, then go back to my apartment again.
-** Old Journals <<JR:OJ>>
+    - [2020-07-21 Tue 15:43]
+      Currently sitting on the toilet naked in my apartment in oxford. Just went for a walk around the school. I got really sweaty so I'm having my clothes dry.
+      After the pits on my shirt dries I'm going to load up my car with a few boxes of my stuff and head out. What else should I put in here? I'm unsure, but
+      I feel like I should write more.
+    - [2020-07-21 Tue 20:18] <<JR:CJ:"The Mind-Killer">>
+     I like taking baths on the hottest water setting because of how relaxing it is getting out,
+     but I'm always afraid of the bath while taking it and I can't figure out why. I know the water isn't hot enough to harm me,
+     since the hot water heater is set within safe limits. This time while bathing I was trying to focus on my breath and meditate,
+     so I could ignore the feeling of fear. Everytime the thoughts telling me that I should get out of the water along with a feeling of discomfort entered
+     my mind I would recognize them as they were and return to my breath without following through on them. While repeating this pattern over and over again
+     I began to notice how these thoughts were accompanied by my pounding heart. I then made the connection that my heart rate normally increases like this when I'm afraid, 
+     but this increase in heart rate wasn't from the fear. It was from the hot water and my body's natural response to keep itself cool.
+     I think my mind had been associating the increase in heart rate with me being afraid and would then fill my mind with discomfort and fearful thoughts.
+     In the end there was no object actually creating the fear; just my mind interpreting a physiological response that is normally associated with fear as a need
+     to be afraid. I'm reminded of the Bene Gesserit's litany of fear from Frank Herbert's Dune.
+
+      I must not fear.
+      Fear is the mind-killer.
+      Fear is the little-death that brings total obliteration.
+      I will face my fear.
+      I will permit it to pass over me and through me.
+      And when it has gone past I will turn the inner eye to see its path.
+      Where the fear has gone there will be nothing.
+      Only I will remain.
 *** Journal [2020-07-20 Mon]
     - [2020-07-20 Mon 07:09]
       Woke up early this morning. I'm hoping being home is going to make it easy to get a solid sleep routine down.
