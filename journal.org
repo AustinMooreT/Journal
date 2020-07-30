@@ -12,14 +12,9 @@
 **** Open Tasks <<LF:OT1:OT>>
 ***** TODO Remove moldy junk from fridge <<LF:OT1:OT19>>
 ***** TODO Throw away remaining junk in kitchen <<LF:OT1:OT18>>
-***** TODO Take apart table <<LF:OT1:OT22>>
-***** TODO Packup car with kitchen/coat/bath, desk, computer, and bedframe <<LF:OT1:OT25>>
 ***** TODO Packup car with books/goodwill items <<LF:OT1:OT26>>
 ***** TODO Thorwout trash <<LF:OT1:OT30>>
 ***** TODO Clean apartment <<LF:OT1:OT27>>
-***** TODO Bring books to house <<LF:OT1:OT7>>
-***** TODO Bring table to house <<LF:OT1:OT28>>
-***** TODO Bring Bed to house <<LF:OT1:OT29>>
 ***** TODO Take books to half priced books <<LF:OT1:OT11>>
 ***** TODO Fix the gold thingy on the closet door <<LF:OT1:OT12>>
       - To fix it I think I need some glue
@@ -65,6 +60,16 @@
       CLOSED: [2020-07-23 Thu 13:09]
 ***** DONE clean out back of car <<LF:OT1:CT18>>
       CLOSED: [2020-07-23 Thu 13:09]
+***** DONE Take apart table <<LF:OT1:CT19>>
+      CLOSED: [2020-07-28 Tue 12:50]
+***** DONE Packup car with kitchen/coat/bath, desk, computer, and bedframe <<LF:OT1:CT20>>
+      CLOSED: [2020-07-28 Tue 12:50]
+***** DONE Bring books to house <<LF:OT1:CT21>>
+      CLOSED: [2020-07-28 Tue 12:51]
+***** DONE Bring table to house <<LF:OT1:CT22>>
+      CLOSED: [2020-07-28 Tue 12:51]
+***** DONE Bring Bed to house <<LF:OT1:CT23>>
+      CLOSED: [2020-07-28 Tue 12:51]
 *** TODO House flooring <<LF:OT2>>
     :LOGBOOK:
     - [2020-07-19 Sun 14:01]
@@ -115,6 +120,7 @@
 *** TODO Update Linkedin
 *** TODO Setup indeed account
 *** TODO Revise resume again
+*** TODO Investigate DoorDash
 ** Closed Tasks
 ** Leidos
    They sent me an email pertaining to the employee referall program. I talked to someone in HR, and am waiting to hear back.
@@ -398,7 +404,6 @@
 *** TODO Investigate wireless driver bug.
 **** Notes
      - [2020-07-24 Fri 14:11]
-
        This is the stack trace.
        Jul 24 13:47:05 natasha kernel: ------------[ cut here ]------------
        Jul 24 13:47:05 natasha kernel: WARNING: CPU: 0 PID: 145019 at net/wireless/nl80211.c:3157 nl80211_send_c>
@@ -427,9 +432,14 @@
        Jul 24 13:47:05 natasha kernel:  ? kthread_park+0x80/0x80
        Jul 24 13:47:05 natasha kernel:  ret_from_fork+0x1f/0x30
        Jul 24 13:47:05 natasha kernel: ---[ end trace 37421195d17a3881 ]---
-
-       
-
+     - [2020-07-28 Tue 13:00]
+       I think I should enable debugging and go from there.
+     - [2020-07-28 Tue 21:13]
+       So we crash shortly after *rtw_chk_start_clnt_join* finishes executing.
+       We get this Debug message to help us out "RTW: rtw_chk_start_clnt_join(wlp38s0f3u4) union: 11,0,0".
+**** Open Tasks <<PG:OT3:OT>>
+***** TODO Enable Debugging <<PG:OT3:OT1>>
+**** Closed Tasks <<PG:OT3:CT>>
 * Journaling <<JR>>
 ** Titled Entries
    [[JR:CJ:"The Mind-Killer"]]
