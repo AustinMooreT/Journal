@@ -5,21 +5,39 @@
    - [2020-07-23 Thu 20:59] <<LF:NT2>>
      Don't forget about saving the dirty shirts that we want to use oxyclean on again.
 ** Open Tasks <<LF:OT>>
-*** TODO Move out of Oxford Apartment<<LF:OT1>>
-    :LOGBOOK:
-    :END:
+*** TODO Take electricity out of my name <<LF:OT16>>
+*** TODO Deal with insurance <<LF:OT11>>
+*** TODO Pay speeding ticket <<LF:OT4>>
+    DEADLINE: <2020-08-31 Mon>
+*** TODO Go through email <<LF:OT8>>
+    Clean out inboxes and unsubscribe
+*** TODO Take books to half priced books <<LF:OT15>>
+*** TODO Take Clothes to goodwill <<LF:OT17>>
+*** TODO Clean outside of car <<LF:OT5>>
+*** TODO Clean inside of car <<LF:OT6>>
+*** TODO Buy new undershirts <<LF:OT7>>
+*** TODO Figure out school <<LF:OT13>>
+    - I'm going to see how much it is to stay part time this semester, and keep looking
+      for jobs. If I can get something good and do classes I'll stay enrolled otherwise
+      I drop out.
+*** TODO Figure out school insurance <<LF:OT14>>
+** Closed Tasks <<LF:CT>>
+*** DONE Put away clothes <<LF:CT1>>
+    CLOSED: [2020-07-22 Wed 13:36]
+    Put away all of my hanging clothes into Jordan's room.
+*** DONE Buy stuff for cleaning pit stains <<LF:CT2>>
+    CLOSED: [2020-07-22 Wed 19:13]
+    - Need to buy oxyclean
+*** DONE Clothes <<LF:CT3>>
+    CLOSED: [2020-07-23 Thu 20:51]
+*** DONE Organize paperwork on desk <<LF:CT4>>
+    CLOSED: [2020-07-24 Fri 09:08]
+*** DONE Move out of Oxford Apartment<<LF:CT5>>
+    CLOSED: [2020-08-03 Mon 07:43]
     DEADLINE: <2020-07-31 Fri>
 **** Open Tasks <<LF:OT1:OT>>
-***** TODO Remove moldy junk from fridge <<LF:OT1:OT19>>
-***** TODO Throw away remaining junk in kitchen <<LF:OT1:OT18>>
-***** TODO Packup car with books/goodwill items <<LF:OT1:OT26>>
-***** TODO Thorwout trash <<LF:OT1:OT30>>
-***** TODO Clean apartment <<LF:OT1:OT27>>
-***** TODO Take books to half priced books <<LF:OT1:OT11>>
 ***** TODO Fix the gold thingy on the closet door <<LF:OT1:OT12>>
       - To fix it I think I need some glue
-***** TODO Take electricity out of my name <<LF:OT1:OT14>>
-***** TODO Take internet out of my name <<LF:OT1:OT15>>
 **** Closed Tasks <<LF:OT1:CT>>
 ***** DONE Gone through closet <<LF:OT1:CT1>>
       CLOSED: [2020-07-19 Sun 14:12
@@ -70,7 +88,31 @@
       CLOSED: [2020-07-28 Tue 12:51]
 ***** DONE Bring Bed to house <<LF:OT1:CT23>>
       CLOSED: [2020-07-28 Tue 12:51]
-*** TODO House flooring <<LF:OT2>>
+***** DONE Remove moldy junk from fridge <<LF:OT1:CT24>>
+      CLOSED: [2020-08-03 Mon 07:42]
+***** DONE Throw away remaining junk in kitchen <<LF:OT1:CT25>>
+      CLOSED: [2020-08-03 Mon 07:42]
+***** DONE Packup car with books/goodwill items <<LF:OT1:CT26>>
+      CLOSED: [2020-08-03 Mon 07:42]
+***** DONE Thorwout trash <<LF:OT1:CT27>>
+      CLOSED: [2020-08-03 Mon 07:42]
+***** DONE Clean apartment <<LF:OT1:CT28>>
+      CLOSED: [2020-08-03 Mon 07:42]
+***** DONE Take internet out of my name <<LF:OT1:CT29>>
+      CLOSED: [2020-08-03 Mon 07:42]
+*** DONE Foot Doctor <<LF:CT6>>
+    CLOSED: [2020-08-03 Mon 07:45] SCHEDULED: <2020-07-29 Wed>
+*** DONE Figure out canoeing <<LF:CT7>>
+    CLOSED: [2020-08-03 Mon 07:45] SCHEDULED: <2020-07-26 Sun>
+    Chris said yes still waiting to hear about Israel and Ben.
+    It'll cost $21 with a $20 cash depoisit on the equipment
+
+    I tried calling, but jost got a busy tone. I'll try again in a bit.
+    - Little Miami Canoe
+      Phone Number: 513-899-3616
+      Address: Little Miami Canoe Rental, 219 Mill St, Morrow, OH 45152
+*** DONE House flooring <<LF:OT2>>
+    CLOSED: [2020-08-12 Wed 14:00]
     :LOGBOOK:
     - [2020-07-19 Sun 14:01]
       I asked Rhonda about this yesterday. She said that we had to be out of the house for 4 days, but dad said 1-2.
@@ -79,42 +121,6 @@
     - We have to be out of the house while the hardwood floors are done on the middle floor.
     - When this is occuring is still tentative. Early August is best guess.
     - I may still have to find a place to stay for potentially up to 4 days.  
-
-*** TODO Foot Doctor <<LF:OT3>>
-    SCHEDULED: <2020-07-29 Wed>
-*** TODO Pay speeding ticket <<LF:OT4>>
-    DEADLINE: <2020-08-31 Mon>
-*** TODO Clean outside of car <<LF:OT5>>
-*** TODO Clean inside of car <<LF:OT6>>
-*** TODO Buy new undershirts <<LF:OT7>>
-*** TODO Go through email <<LF:OT8>>
-    Clean out inboxes and unsubscribe
-*** TODO Deal with insurance <<LF:OT11>>
-*** TODO Figure out canoeing <<LF:OT12>>
-    SCHEDULED: <2020-07-26 Sun>
-    Chris said yes still waiting to hear about Israel and Ben.
-    It'll cost $21 with a $20 cash depoisit on the equipment
-
-    I tried calling, but jost got a busy tone. I'll try again in a bit.
-    - Little Miami Canoe
-      Phone Number: 513-899-3616
-      Address: Little Miami Canoe Rental, 219 Mill St, Morrow, OH 45152
-*** TODO Figure out school <<LF:OT13>>
-    - I'm going to see how much it is to stay part time this semester, and keep looking
-      for jobs. If I can get something good and do classes I'll stay enrolled otherwise
-      I drop out.
-*** TODO Figure out school insurance <<LF:OT14>>
-** Closed Tasks <<LF:CT>>
-*** DONE Put away clothes <<LF:CT1>>
-    CLOSED: [2020-07-22 Wed 13:36]
-    Put away all of my hanging clothes into Jordan's room.
-*** DONE Buy stuff for cleaning pit stains <<LF:CT2>>
-    CLOSED: [2020-07-22 Wed 19:13]
-    - Need to buy oxyclean
-*** DONE Clothes <<LF:CT3>>
-    CLOSED: [2020-07-23 Thu 20:51]
-*** DONE Organize paperwork on desk <<LF:CT4>>
-    CLOSED: [2020-07-24 Fri 09:08]
 * Work <<WK>>
 ** Open Tasks
 *** TODO Update Linkedin
@@ -163,9 +169,6 @@
       I kinda like the look of the default X cursor so I want to go with it as my main cursor.
 *** TODO Fix corrupted package on laptop <<CM:OT14>>
 *** TODO Come up with way to sync laptop home folder with desktop <<CM:OT15>>
-*** TODO Uninstall 8812au module on desktop <<CM:OT18>>
-    I installed this when trying to setup my wireless adapter.
-    I ended up installing 88XXau instead.
 ** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
@@ -188,20 +191,15 @@
       https://github.com/aircrack-ng/rtl8812au
 *** DONE Match chrome theme on desktop <<CM:CT7>>
     CLOSED: [2020-07-24 Fri 09:45]
-*** DONE Setup rofi instead of dmenu <<CM:OT2>>
+*** DONE Setup rofi instead of dmenu <<CM:CT8>>
     CLOSED: [2020-07-24 Fri 12:14]
     - Rofi is installed, but still needs to be configured.
     - I think there's an issue with my locale settings
+*** DONE Uninstall 8812au module on desktop <<CM:CT9>>
+    CLOSED: [2020-08-04 Tue 13:47]
+    I installed this when trying to setup my wireless adapter.
+    I ended up installing 88XXau instead.
 * Org Maintenance <<OM>>
-  :LOGBOOK:
-  - [2020-07-02 Thu 21:21]
-    I like the idea of projects having **open tasks** and **closed tasks**
-    and as things get completed we move from one to the other.
-    Although I'm unsure if all my projects admit a task based structure.
-    Like my programming project for example is actually less task based overall
-    Same thing with reading books, but maybe they are and I just need to think on it
-    more.
-  :END:
   This is where I'd like to track any sort of
   project related to the maintenance of my org file itself.
 ** Open Tasks <<OM:OT>>
@@ -248,10 +246,6 @@
     I'd like to figure out a good way to structure notes in an area and then migrate the old logbooks into there.
 ** Closed Tasks <<OM:CT>>
 * Reading <<CR>>
-  :LOGBOOK:
-  - [2020-07-02 Thu 15:19] TODO
-    I'd like to find a book on PERT process management. I'd like to start applying it to this project here.
-  :END:
 ** Books <<CR:BK>>
 *** Open Tasks <<CR:BK:OT>>
 **** TODO Death by Shelly Kagan <<CR:BK:OT1>>
@@ -263,7 +257,9 @@
 **** TODO Intoduction To Smooth Manifolds by John M. Lee <<CR:BK:OT2>>
 **** TODO Discrete Differential Geometry <<CR:BK:OT3>>
 **** TODO The Geometry of Musical Rhythm by Godfried Toussiant <<CR:BK:OT4>>
-**** TODO The Hitch Hikers Guide to the Galaxy by Douglas Adams <<CR:BK:OT5>>
+*** Closed Tasks <<CR:BK:CT>>
+**** DONE The Hitch Hikers Guide to the Galaxy by Douglas Adams <<CR:BK:CT1>>
+     CLOSED: [2020-08-04 Tue 13:48] I finished reading this a few weeks ago.
      - [2020-07-20 Mon 07:24]
        Re-reading through the book in the evenings. I forgot how much I liked this book.
        I'm just at chapter 4 now where Arther and Ford finished up at the pub and are now getting ready to board
@@ -273,7 +269,6 @@
        Arthur and Ford are still on the Vogon ship. I forget the guys name something Jeltz? He's the vogon in
        charge. I like the whole bit after he reads them poetry where Ford is trying to convince their escort
        that there is more to life than escorting prisoners and yelling, but fails.
-*** Closed Tasks <<CR:BK:CT>>
 ** Articles <<CR:AS>>
 *** Open Tasks <<CR:AS:OT>>
 **** TODO Chris Beams' on writing good commits. <<CR:AS:OT1>>
@@ -290,10 +285,12 @@
      This was a fun little read going over some of the cool things about the busy beaver function.
      My favorite part was with the functions that grow faster than the busy beaver function.
 * Programming <<PG>>
-  :LOGBOOK:
-  :END:
 ** Open Tasks <<PG:OT>>
 *** TODO Game Engine <<PG:OT1>>
+    Right now I'm writing some of the Vulkan Rendering code.
+    I need to do a brain dump into here soon
+**** Open Tasks <<PG:OT1:OT>>
+***** TODO Brain dump everything into the notes in GameEngine <<PG:OT1:OT1>>
 *** TODO Add X support CIRU <<PG:OT2>>
   CIRU is a "Checkpoint and Restore" applciation for linux.
   What that means is that it takes all of the process state
@@ -401,7 +398,10 @@
       I continued playing around with this. Idris is a tough one to figure out. It's hard to get your types to line up correctly. I like the spirit of it though.
     - [2020-07-23 Thu 07:13]
       I kinda want to read more about rings. Because I think the rhythm structures I'm building resemble one.
-*** TODO Investigate wireless driver bug.
+** Closed Tasks <<PG:CT>>
+*** DONE Investigate wireless driver bug. <<PG:CT1>>
+    CLOSED: [2020-08-04 Tue 13:50]
+   I think this is fixed. I just used the 5.7.0 branch instead of 5.6.2 branch.
 **** Notes
      - [2020-07-24 Fri 14:11]
        This is the stack trace.
@@ -437,20 +437,80 @@
      - [2020-07-28 Tue 21:13]
        So we crash shortly after *rtw_chk_start_clnt_join* finishes executing.
        We get this Debug message to help us out "RTW: rtw_chk_start_clnt_join(wlp38s0f3u4) union: 11,0,0".
-**** Open Tasks <<PG:OT3:OT>>
-***** TODO Enable Debugging <<PG:OT3:OT1>>
-**** Closed Tasks <<PG:OT3:CT>>
+     - [2020-08-04 Tue 08:58]
+       I have a "level 5" debug log from a few of the same types of crashes in /Code/Temp/tmp.
+     - [2020-08-04 Tue 09:44]
+       So I think this is the most interesting tidbit to first look through.
+       It happens a bit before every crash. I really want to know what "Reason 1" is.
+       I think this is where I'm going to begin investigating.
+
+
+       Jul 28 20:41:49 natasha NetworkManager[1456]: <info>  [1595983309.8415] device (wlp38s0f3u4): supplicant interface state: associating -> disconnected
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_join_timeout_handler, fw_state=8
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_cfg80211_indicate_disconnect(wlp38s0f3u4)
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_cfg80211_indicate_disconnect(wlp38s0f3u4) call cfg80211_connect_result
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_cfg80211_indicate_disconnect(wlp38s0f3u4)
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_cfg80211_indicate_disconnect(wlp38s0f3u4) call cfg80211_disconnected
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_reset_securitypriv(wlp38s0f3u4) - End to Disconnect
+
+       ^ I think this block is debug messaging for the disconnect process
+
+       Jul 28 20:41:49 natasha kernel: RTW: cfg80211_rtw_del_key(wlp38s0f3u4) key_index=0, addr=(null)
+       Jul 28 20:41:49 natasha kernel: RTW: cfg80211_rtw_del_key(wlp38s0f3u4) key_index=1, addr=(null)
+       Jul 28 20:41:49 natasha kernel: RTW: cfg80211_rtw_del_key(wlp38s0f3u4) key_index=2, addr=(null)
+       Jul 28 20:41:49 natasha kernel: RTW: cfg80211_rtw_del_key(wlp38s0f3u4) key_index=3, addr=(null)
+       Jul 28 20:41:49 natasha kernel: RTW: cfg80211_rtw_del_key(wlp38s0f3u4) key_index=4, addr=(null)
+       Jul 28 20:41:49 natasha kernel: RTW: cfg80211_rtw_del_key(wlp38s0f3u4) key_index=5, addr=(null)
+
+       ^ I think this block is cleanup for the disconnect process
+
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_reg_notifier: NL80211_REGDOM_SET_BY_CORE
+       Jul 28 20:41:49 natasha kernel: RTW: cfg80211_rtw_scan(wlp38s0f3u4)
+       Jul 28 20:41:49 natasha kernel: RTW: rtw_ps_deny(wlp38s0f3u4): [WARNING] Reason 1 had been set before!!
+       Jul 28 20:41:49 natasha kernel: RTW: SetHwReg8814A:(HW_VAR_CHECK_TXBUF)TXBUF Empty(1) in 0 ms
+       Jul 28 20:41:49 natasha kernel: RTW: wlp38s0f3u4 sleep m0=0x00000002, ori reg_0x4d4=0x00000000
+
+       ^ I think this is us restarting the scan.
+
+       - [2020-08-04 Tue 11:30]
+         Jul 28 20:41:49 natasha kernel: RTW: rtw_ps_deny(wlp38s0f3u4): [WARNING] Reason 1 had been set before!!
+         So this warning happens a lot of the time and I don't think is indicative of the crash, but I'm going
+         to do some more hunting.
+       - [2020-08-04 Tue 12:35]
+         So there are some uninitialized structs in linux/ioctl_cfg80211.c that cause the crash. I fixed that, but there's
+         still the random disconnects.
+
+         line 450 : struct cfg80211_chan_def chdef; => line 450 : struct cfg80211_chan_def chdef = {};
+         line struct cfg80211_scan_info info = {};
+       - [2020-08-04 Tue 12:56]
+
+**** Open Tasks <<PG:OT4:OT>>
+***** TODO Figure out what Reason 1 is <<PG:OT4:OT1>>
+**** Closed Tasks <<PG:OT4:CT>>
+***** DONE Enable Debugging <<PG:OT4:OT1>>
+      CLOSED: [2020-08-04 Tue 08:48]   
 * Journaling <<JR>>
 ** Titled Entries
    [[JR:CJ:"The Mind-Killer"]]
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-08-12 Wed]
+    - [2020-08-12 Wed 14:03]
+      Still haven't been keeping up with writing in my org file. I think the things I'm going to have to drop out of school which is really depressing. I want a real job so badly.
+** Old Journals <<JR:OJ>>
+*** Journal [2020-08-04 Tue]
+    - [2020-08-04 Tue 13:55]
+      Still struggling to keep up with my org file. I really do want to make this a habit.
+*** Journal [2020-07-30 Thu]
+    - [2020-07-30 Thu 10:59]
+      It's been a week since I've written in here. I've not been very consistent with updating my org file.
+      I need to get up and do this every morning. I think my routine should be 6:00 wakeup even if tired >shower > coffee > org > doordash > piano > math > programming > philosophy.
+      But we'll see. I need more visibility on my day.
 *** Journal [2020-07-23 Thu]
     - [2020-07-23 Thu 20:56]
       I don't have much to write today. Got the majority of the stuff moved over from my apartment. I had slept pretty poorly the other night.
       I setup my desk and am hoping my parents are going to let me keep it the way that I have it. I like having a little bit of office space where I can think.
       I really wish I would stop plucking beard hairs out of my chin. Also my fingers hurt I think it's from the oxyclean. It did a good job on cleaning the pit
       stains out of my shirts. I should probably add another reminder about that. Welp I'm going to go brush my teeth and read. Night.
-** Old Journals <<JR:OJ>>
 *** Journal [2020-07-22 Wed]
     - [2020-07-22 Wed 10:45]
       Just woke up fully about an hour ago. I slept like 12 hours last night. Not sure what caused that I'm thinking either the exercise
