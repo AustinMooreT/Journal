@@ -151,6 +151,7 @@
 *** TODO Go through systemd journal and fix any strange errors it reports <<CM:OT6>>
 *** TODO Cleanup my /boot folder <<CM:OT9>>
 *** TODO Cleanup installed packages in pacman <<CM:OT10>>
+*** TODO Migrate everything from X to wayland <<CM:OT11>>
 ** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
