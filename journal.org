@@ -1,26 +1,22 @@
 * Life <<LF>>
 ** Notes <<LF:NT>>
-   - [2020-07-23 Thu 20:53] <<LF:NT1>>
-     Tomorrow I want to accomplish everything in [[CM:NT1]] and [[LF:OT14]]
-   - [2020-07-23 Thu 20:59] <<LF:NT2>>
-     Don't forget about saving the dirty shirts that we want to use oxyclean on again.
 ** Open Tasks <<LF:OT>>
-*** TODO Take electricity out of my name <<LF:OT16>>
-*** TODO Deal with insurance <<LF:OT11>>
-*** TODO Pay speeding ticket <<LF:OT4>>
-    DEADLINE: <2020-08-31 Mon>
-*** TODO Go through email <<LF:OT8>>
-    Clean out inboxes and unsubscribe
 *** TODO Take books to half priced books <<LF:OT15>>
 *** TODO Take Clothes to goodwill <<LF:OT17>>
 *** TODO Clean outside of car <<LF:OT5>>
 *** TODO Clean inside of car <<LF:OT6>>
-*** TODO Buy new undershirts <<LF:OT7>>
-*** TODO Figure out school <<LF:OT13>>
-    - I'm going to see how much it is to stay part time this semester, and keep looking
-      for jobs. If I can get something good and do classes I'll stay enrolled otherwise
-      I drop out.
-*** TODO Figure out school insurance <<LF:OT14>>
+*** TODO Fax 2018 W-2 to State tax department <<LF:OT7>>
+*** TODO Apply to new jobs on indded and start tracking application status <<LF:OT8>>
+*** TODO Block reddit <<LF:OT9>>
+    - I want to block all of reddit except for a few allowed subreddits.
+      /r/starcraft
+      /r/math
+      /r/unixporn
+      /r/linux
+      /r/emacs
+      
+      and maybe add in a mechanism for when I'm google searching for technical
+      support to allow me to view the website.
 ** Closed Tasks <<LF:CT>>
 *** DONE Put away clothes <<LF:CT1>>
     CLOSED: [2020-07-22 Wed 13:36]
@@ -111,7 +107,7 @@
     - Little Miami Canoe
       Phone Number: 513-899-3616
       Address: Little Miami Canoe Rental, 219 Mill St, Morrow, OH 45152
-*** DONE House flooring <<LF:OT2>>
+*** DONE House flooring <<LF:CT8>>
     CLOSED: [2020-08-12 Wed 14:00]
     :LOGBOOK:
     - [2020-07-19 Sun 14:01]
@@ -120,19 +116,24 @@
     :END:
     - We have to be out of the house while the hardwood floors are done on the middle floor.
     - When this is occuring is still tentative. Early August is best guess.
-    - I may still have to find a place to stay for potentially up to 4 days.  
+    - I may still have to find a place to stay for potentially up to 4 days.
+
+*** DONE Buy new undershirts <<LF:CT9>>
+*** DONE Figure out school <<LF:CT10>>
+    - I'm going to see how much it is to stay part time this semester, and keep looking
+      for jobs. If I can get something good and do classes I'll stay enrolled otherwise
+      I drop out.
+*** DONE Figure out school insurance <<LF:CT11>>
+*** DONE Take electricity out of my name <<LF:CT12>>
+*** DONE Deal with insurance <<LF:CT13>>
+*** DONE Pay speeding ticket <<LF:CT14>>
+    DEADLINE: <2020-08-31 Mon>    
+*** DONE Go through email <<LF:CT15>>
+    CLOSED: [2020-11-03 Tue 17:12]
+    Clean out inboxes and unsubscribe
 * Work <<WK>>
 ** Open Tasks
-*** TODO Update Linkedin
-*** TODO Setup indeed account
-*** TODO Revise resume again
-*** TODO Investigate DoorDash
 ** Closed Tasks
-** Leidos
-   They sent me an email pertaining to the employee referall program. I talked to someone in HR, and am waiting to hear back.
-** Cintas
-   I basically gave them the cold shoulder. I hope that information doesn't come around
-   to Dad, but we will see.
 * Finance <<FN>>
 ** Open Tasks <<FN:OT>>
 *** TODO Finish labeling all of the old transactions <<FN:OT2>>
@@ -145,30 +146,11 @@
    Shouldn't be too bad, but I'm lazy
 * Computer Maintenance <<CM>>
 ** Notes <<CM:NT:>>
-  - [2020-07-23 Thu 20:49] <<CM:NT1>>
-    Tasks [[C:OT16]], [[CM:OT12]], [[CM:OT2]], [[CM:OT17]]
-    Are high priority tomorrow morning and should be completed in that order.
 ** Open Tasks <<CM:OT>>
-*** TODO Physically clean laptop <<CM:OT16>>
-*** TODO Replace laptop fonts with the same font as my desktop <<CM:OT13>>
-*** TODO Setup emacs daemon on laptop
 *** TODO Finish cleaning up home folder <<CM:OT3>>
-*** TODO Finish configuring xmonad <<CM:OT4>>
-*** TODO Merge files from laptop with desktop <<CM:OT5>>
 *** TODO Go through systemd journal and fix any strange errors it reports <<CM:OT6>>
-*** TODO Android file transfer support <<CM:OT7>>
-*** TODO Get starcraft up and running <<CM:OT8>>
-    Wine has been emerged, but I have some sort of error when trying
-    to launch executables.
-*** TODO Get steam up and running <<CM:OT13>>
 *** TODO Cleanup my /boot folder <<CM:OT9>>
-*** TODO Setup amd microcode <<CM:OT10>>
-    - Need to add firmware blobs to kernel and rebuild see [[https://wiki.gentoo.org/wiki/AMD_microcode]]
-*** TODO Fix cursor consitency <<CM:OT11>>
-    - So I think this is caused by gtk applications using adiwata and X11 using the default X cursor
-      I kinda like the look of the default X cursor so I want to go with it as my main cursor.
-*** TODO Fix corrupted package on laptop <<CM:OT14>>
-*** TODO Come up with way to sync laptop home folder with desktop <<CM:OT15>>
+*** TODO Cleanup installed packages in pacman <<CM:OT10>>
 ** Closed Tasks <<CM:CT>>
 *** DONE Fix font in emacs <<CM:CT1>>
 *** DONE Setup C/C++ in emacs <<CM:CT2>>
@@ -286,11 +268,6 @@
      My favorite part was with the functions that grow faster than the busy beaver function.
 * Programming <<PG>>
 ** Open Tasks <<PG:OT>>
-*** TODO Game Engine <<PG:OT1>>
-    Right now I'm writing some of the Vulkan Rendering code.
-    I need to do a brain dump into here soon
-**** Open Tasks <<PG:OT1:OT>>
-***** TODO Brain dump everything into the notes in GameEngine <<PG:OT1:OT1>>
 *** TODO Add X support CIRU <<PG:OT2>>
   CIRU is a "Checkpoint and Restore" applciation for linux.
   What that means is that it takes all of the process state
@@ -390,14 +367,8 @@
     Here's the paper that describes it's implementation.
     https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
   :END:
-*** TODO Idris Music <<PG:OT3>>
-    - [2020-07-21 Tue 20:55]
-      I basically just made a file. I want to work out a good definition (Type Signature) for Tones and Rhythm.
-      So I can have a good foundation for building bigger tools.
-    - [2020-07-22 Wed 21:22]
-      I continued playing around with this. Idris is a tough one to figure out. It's hard to get your types to line up correctly. I like the spirit of it though.
-    - [2020-07-23 Thu 07:13]
-      I kinda want to read more about rings. Because I think the rhythm structures I'm building resemble one.
+*** TODO Build my own Wayland WM <<PG:OT3>>
+    
 ** Closed Tasks <<PG:CT>>
 *** DONE Investigate wireless driver bug. <<PG:CT1>>
     CLOSED: [2020-08-04 Tue 13:50]
@@ -493,10 +464,28 @@
 ** Titled Entries
    [[JR:CJ:"The Mind-Killer"]]
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-11-03 Tue 17:30]
+
+    I'm going to try to get back into the swing of using this journal.
+    I want to read what I've written every morning in here.
+    
+    I want to start daily orging again. Using this file everyday during the
+    summer made me feel good. Even on days where I didn't accomplish much
+    I still felt good when I wrote and updated my org file. Also it gives my
+    life direction. I also want to start consitently getting up early again.
+    I think I'm going to set my sights on getting up at 6:30 every morning and
+    just killing my day. Also less social media is a goal for me. I'm going to stop 
+    using global reddit. I want to allow a couple subreddits, but that is it.
+
+    I felt like Heather was overly nice to me and excited to see me at Lauren and Jake's
+    Halloween get together. I think she's in an interesting spot in her life and I don't
+    want to take advantage of that. Things seemed to be interesting between her and her
+    current boyfriend.
+    
+** Old Journals <<JR:OJ>>
 *** Journal [2020-08-12 Wed]
     - [2020-08-12 Wed 14:03]
       Still haven't been keeping up with writing in my org file. I think the things I'm going to have to drop out of school which is really depressing. I want a real job so badly.
-** Old Journals <<JR:OJ>>
 *** Journal [2020-08-04 Tue]
     - [2020-08-04 Tue 13:55]
       Still struggling to keep up with my org file. I really do want to make this a habit.
