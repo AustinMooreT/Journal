@@ -6,17 +6,8 @@
 *** TODO Clean outside of car <<LF:OT5>>
 *** TODO Clean inside of car <<LF:OT6>>
 *** TODO Fax 2018 W-2 to State tax department <<LF:OT7>>
-*** TODO Apply to new jobs on indded and start tracking application status <<LF:OT8>>
-*** TODO Block reddit <<LF:OT9>>
-    - I want to block all of reddit except for a few allowed subreddits.
-      /r/starcraft
-      /r/math
-      /r/unixporn
-      /r/linux
-      /r/emacs
-      
-      and maybe add in a mechanism for when I'm google searching for technical
-      support to allow me to view the website.
+    - Check the monroe library for a fax machine.
+*** TODO Pay Salliemae <<LF:OT10>>
 ** Closed Tasks <<LF:CT>>
 *** DONE Put away clothes <<LF:CT1>>
     CLOSED: [2020-07-22 Wed 13:36]
@@ -132,8 +123,21 @@
     CLOSED: [2020-11-03 Tue 17:12]
     Clean out inboxes and unsubscribe
 * Work <<WK>>
-** Open Tasks
-** Closed Tasks
+** Open Tasks <<WK:OT>>
+*** TODO Get Job <<WK:OT1>>
+    Our goal is to get a job as a software developer somewhere making decent money.
+**** Hellebore Consulting <<WK:OT1:HBC>>
+     I applied on [2020-10-14 Wed], then had my first interview [2020-10-16 Fri]. Afterwards they
+     setup another interview and programming assesment. Which I completed on [2020-10-21 Wed].
+**** Radiance Technologies <<WK:OT1:RDT>>
+     I've applied a few times maybe should apply again in the next couple weeks no bites yet.
+**** Leidos <<WK:OT1:LDS>>
+     I've applied like 8 times no interviews yet, but I won't stop till they do interview me.
+*** TODO Get Temp Job <<WK:OT2>>
+    Because I haven't made any money in a while and have a lot of debt.
+    While working on <<WK:OT1>> I need an easy to obtain job to make money in the process.
+
+** Closed Tasks <<WK:CT>>
 * Finance <<FN>>
 ** Open Tasks <<FN:OT>>
 *** TODO Finish labeling all of the old transactions <<FN:OT2>>
@@ -369,7 +373,11 @@
     https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
   :END:
 *** TODO Build my own Wayland WM <<PG:OT3>>
+    The first step here is learning how wayland works
+    I'll try and add notes anytime I learn something new along the way.
     
+    I'm currently working on picking apart a fairly barebones wm called dwl into something I like.
+**** Notes <<PG:OT3:NT>>
 ** Closed Tasks <<PG:CT>>
 *** DONE Investigate wireless driver bug. <<PG:CT1>>
     CLOSED: [2020-08-04 Tue 13:50]
@@ -465,25 +473,45 @@
 ** Titled Entries
    [[JR:CJ:"The Mind-Killer"]]
 ** Current Journal <<JR:CJ>>
-*** Journal [2020-11-03 Tue 17:30]
+*** Journal [2020-11-04 Wed]
+    - [2020-11-04 Wed 10:03]
 
-    I'm going to try to get back into the swing of using this journal.
-    I want to read what I've written every morning in here.
-    
-    I want to start daily orging again. Using this file everyday during the
-    summer made me feel good. Even on days where I didn't accomplish much
-    I still felt good when I wrote and updated my org file. Also it gives my
-    life direction. I also want to start consitently getting up early again.
-    I think I'm going to set my sights on getting up at 6:30 every morning and
-    just killing my day. Also less social media is a goal for me. I'm going to stop 
-    using global reddit. I want to allow a couple subreddits, but that is it.
+      Good morning world. I'm about three hours off hitting my goal up and at em time of 6:30.
+      I actually woke up at  5, but felt really weird. I'm just now noticing how all over the place my
+      attention actually is. I need to work on that. Do things like meditate more and use less phone.
+      I think my phone is causing some of the worst addiction I've ever had in my life.
 
-    I felt like Heather was overly nice to me and excited to see me at Lauren and Jake's
-    Halloween get together. I think she's in an interesting spot in her life and I don't
-    want to take advantage of that. Things seemed to be interesting between her and her
-    current boyfriend.
+      I still haven't heard back from Hellebore. I'm really hoping to hear something this morning on that.
+      I also want to go ahead and reapply to a few different places. For example, I want to reapply to Leidos again
+      (they're probably tired of getting my applications) I also want to maybe reapply to Northrop Gruman.
     
+    - [2020-11-04 Wed 23:00]
+      
+      Thought I'd write in here before going to bed. Listening to some Tame Impala. I'm also gaining more
+      direction on the Window Manager project. I want to finish that up and move onto getting all my applications
+      up and running in wayland. I'm curious to how alacritty renders text and such. Maybe I'll just fork alacritty
+      and add full wayland support or something like that.
+
+      I'm going to look up alacritty and go to bed. I'm confident life is going to get better.
+
 ** Old Journals <<JR:OJ>>
+*** Journal [2020-11-03 Tue]
+    - [2020-11-03 Tue 17:30]
+      I'm going to try to get back into the swing of using this journal.
+      I want to read what I've written every morning in here.
+          
+      I want to start daily orging again. Using this file everyday during the
+      summer made me feel good. Even on days where I didn't accomplish much
+      I still felt good when I wrote and updated my org file. Also it gives my
+      life direction. I also want to start consitently getting up early again.
+      I think I'm going to set my sights on getting up at 6:30 every morning and
+      just killing my day. Also less social media is a goal for me. I'm going to stop 
+      using global reddit. I want to allow a couple subreddits, but that is it.
+      
+      I felt like Heather was overly nice to me and excited to see me at Lauren and Jake's
+      Halloween get together. I think she's in an interesting spot in her life and I don't
+      want to take advantage of that. Things seemed to be interesting between her and her
+      current boyfriend.
 *** Journal [2020-08-12 Wed]
     - [2020-08-12 Wed 14:03]
       Still haven't been keeping up with writing in my org file. I think the things I'm going to have to drop out of school which is really depressing. I want a real job so badly.
