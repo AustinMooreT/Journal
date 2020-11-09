@@ -7,7 +7,8 @@
 *** TODO Clean inside of car <<LF:OT6>>
 *** TODO Fax 2018 W-2 to State tax department <<LF:OT7>>
     - Check the monroe library for a fax machine.
-*** TODO Pay Salliemae <<LF:OT10>>
+*** TODO Fix lights on car <<LF:OT11>>
+*** TODO Get $56.42 into my Chase account to pay Dad.
 ** Closed Tasks <<LF:CT>>
 *** DONE Put away clothes <<LF:CT1>>
     CLOSED: [2020-07-22 Wed 13:36]
@@ -122,6 +123,8 @@
 *** DONE Go through email <<LF:CT15>>
     CLOSED: [2020-11-03 Tue 17:12]
     Clean out inboxes and unsubscribe
+*** DONE Pay Salliemae <<LF:CT16>>
+    CLOSED: [2020-11-09 Mon 08:38]
 * Work <<WK>>
 ** Open Tasks <<WK:OT>>
 *** TODO Get Job <<WK:OT1>>
@@ -473,6 +476,34 @@
 ** Titled Entries
    [[JR:CJ:"The Mind-Killer"]]
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-11-09 Mon]
+    - [2020-11-09 Mon 08:34]
+      Weekend was pretty fun. Went with jake and laurent to heather's birthday party Friday. That was fun I think.
+      I don't really remember it all too well. I think I got a bit too rowdy. I spent Saturday hungover. Sunday I went
+      with Israel to finish up the beer we started brewing. Now I'm here thrown back into the real world after a weekend of
+      debauchery.
+** Old Journals <<JR:OJ>>
+*** Journal [2020-11-06 Fri]
+    - [2020-11-06 Fri 13:57]
+      Still no word back from Hellebore. I'm starting to feel like I didn't get the job. I hope I hear back from
+      somewhere else here soon. I hope I'm going to start that job at fedex here soon. I really need some money.
+      I'm going to go visit with friends this weekend. Going to heather's birthday this evening.
+*** Journal [2020-11-05 Thu]
+    - [2020-11-05 Thu 11:49]
+      Well this is good morning for me. I just woke up and showered and such. I initially woke up at 7:30, but
+      I still felt groggy and couldn't fight it hard enough to get out of bed. I need to build a routine to get
+      disciplined around. I think that will make it easier to get up on time. I think writing things in here will
+      give me more focus towards what my life goals actually are. I don't really have a global goal besides have fun.
+      I like the aesthetics of being alive, and want to move towards a being that is aesthetically pleasing to me.
+
+      I like this interpretation of my life a lot. I like being a piece of art to be appreciated by only myself.
+      I'm getting sartche vibes from this. I should read all of the existentialist cafe. I think it would clear up
+      my understanding of their views. It'll also give me something to talk about with Israel. I like this org file
+      a lot and I hope to be spending more time in it. I'm just writing the first things that come to mind as I jam.
+      I really like this song. I'm not writing anything really insightful in here right now, but I think that's ok.
+      I think I should start a way of tracking and organizing my meditation in here.
+
+      I think I'm going to code for a bit. Then maybe go hunt down a fax machine.
 *** Journal [2020-11-04 Wed]
     - [2020-11-04 Wed 10:03]
 
@@ -484,7 +515,6 @@
       I still haven't heard back from Hellebore. I'm really hoping to hear something this morning on that.
       I also want to go ahead and reapply to a few different places. For example, I want to reapply to Leidos again
       (they're probably tired of getting my applications) I also want to maybe reapply to Northrop Gruman.
-    
     - [2020-11-04 Wed 23:00]
       
       Thought I'd write in here before going to bed. Listening to some Tame Impala. I'm also gaining more
@@ -493,8 +523,6 @@
       and add full wayland support or something like that.
 
       I'm going to look up alacritty and go to bed. I'm confident life is going to get better.
-
-** Old Journals <<JR:OJ>>
 *** Journal [2020-11-03 Tue]
     - [2020-11-03 Tue 17:30]
       I'm going to try to get back into the swing of using this journal.
