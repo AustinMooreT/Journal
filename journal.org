@@ -1,5 +1,10 @@
 * Life <<LF>>
 ** Notes <<LF:NT>>
+*** Parents <<LF:NT:PRNTS>>
+    - Parents Wifi
+      Default Gateway : 192.168.1.254
+      Password : 6km327gq5%44
+      Gateway AccessCode : 6@?*&75006
 ** Open Tasks <<LF:OT>>
 *** TODO Take books to half priced books <<LF:OT15>>
 *** TODO Take Clothes to goodwill <<LF:OT17>>
@@ -8,7 +13,8 @@
 *** TODO Fax 2018 W-2 to State tax department <<LF:OT7>>
     - Check the monroe library for a fax machine.
 *** TODO Fix lights on car <<LF:OT11>>
-*** TODO Get $56.42 into my Chase account to pay Dad.
+*** TODO Get $56.42 into my Chase account to pay Dad. <<LF:OT12>>
+*** TODO Pay credit card by the 25th <<LF:OT13>>
 ** Closed Tasks <<LF:CT>>
 *** DONE Put away clothes <<LF:CT1>>
     CLOSED: [2020-07-22 Wed 13:36]
@@ -126,6 +132,12 @@
 *** DONE Pay Salliemae <<LF:CT16>>
     CLOSED: [2020-11-09 Mon 08:38]
 * Work <<WK>>
+** FedEx <<WK:FDX>>
+*** Open Tasks <<WK:FDX:OT>> 
+**** TODO Properly learn how to log in on the scanner <<WK:FDX:OT1>>
+*** Closed Tasks <<WK:FDX:CT>>
+**** DONE Orientation <<WK:FDX:CT1>> 
+     CLOSED: [2020-11-17 Tue 12:24]
 ** Open Tasks <<WK:OT>>
 *** TODO Get Job <<WK:OT1>>
     Our goal is to get a job as a software developer somewhere making decent money.
@@ -136,11 +148,13 @@
      I've applied a few times maybe should apply again in the next couple weeks no bites yet.
 **** Leidos <<WK:OT1:LDS>>
      I've applied like 8 times no interviews yet, but I won't stop till they do interview me.
-*** TODO Get Temp Job <<WK:OT2>>
-    Because I haven't made any money in a while and have a lot of debt.
-    While working on <<WK:OT1>> I need an easy to obtain job to make money in the process.
 
 ** Closed Tasks <<WK:CT>>
+*** DONE Get Temp Job <<WK:CT1>>
+    CLOSED: [2020-11-11 Wed 09:23]
+    Because I haven't made any money in a while and have a lot of debt.
+    While working on <<WK:OT1>> I need an easy to obtain job to make money in the process.
+   
 * Finance <<FN>>
 ** Open Tasks <<FN:OT>>
 *** TODO Finish labeling all of the old transactions <<FN:OT2>>
@@ -276,7 +290,38 @@
      My favorite part was with the functions that grow faster than the busy beaver function.
 * Programming <<PG>>
 ** Open Tasks <<PG:OT>>
-*** TODO Add X support CIRU <<PG:OT2>>
+*** TODO Build my own Wayland WM <<PG:OT3>>
+    The first step here is learning how wayland works
+    I'll try and add notes anytime I learn something new along the way.
+    
+    I'm currently working on picking apart a fairly barebones wm called dwl into something I like.
+
+    Ok I think I want to build everything from scratch in idris.
+    That's a sign I'm making good progress./s
+
+    I kinda want to do this top down. Start with the features I want the wm to have and build downwards.
+
+**** Notes <<PG:OT3:NT>>
+** Closed Tasks <<PG:CT>>
+*** DONE Add X support CIRU <<PG:OT2>>
+    CLOSED: [2020-11-12 Thu 13:38]
+
+  -- NOTE --
+
+  So, this project is pretty much dead in the water. Long story short is not feasible without making some
+  large changes to how X works (I looked into maybe using Wayland, but the same issues are there).
+  The big issue is that a ton of application state (Think opengl statemachine and other similar goodies) are
+  tied up in the Xserver (and sometimes lost by X in the case of opengl) and aren't feasibly retrievable by
+  an external application (or even the actual client application) without recording all messages sent to the
+  xserver by the client from connection to point when you want to save the state.
+
+  I'm going to mark this as completed, but if I ever get the hankerin to add to X or Wayland I'm going to
+  leave everything the way it is, so I don't have to backtrack work.
+
+  I just realize I've made this note twice.
+
+  -- END NOTE --
+
   CIRU is a "Checkpoint and Restore" applciation for linux.
   What that means is that it takes all of the process state
   and writes it to disk, and then can restore it at a later date.
@@ -375,13 +420,6 @@
     Here's the paper that describes it's implementation.
     https://www.usenix.org/legacy/event/usenix03/tech/full_papers/full_papers/zandy/zandy.pdf
   :END:
-*** TODO Build my own Wayland WM <<PG:OT3>>
-    The first step here is learning how wayland works
-    I'll try and add notes anytime I learn something new along the way.
-    
-    I'm currently working on picking apart a fairly barebones wm called dwl into something I like.
-**** Notes <<PG:OT3:NT>>
-** Closed Tasks <<PG:CT>>
 *** DONE Investigate wireless driver bug. <<PG:CT1>>
     CLOSED: [2020-08-04 Tue 13:50]
    I think this is fixed. I just used the 5.7.0 branch instead of 5.6.2 branch.
@@ -476,13 +514,31 @@
 ** Titled Entries
    [[JR:CJ:"The Mind-Killer"]]
 ** Current Journal <<JR:CJ>>
+*** Journal [2020-11-17 Tue]
+    - [2020-11-17 Tue 12:21]
+      I was feeling really depressed yesterday. I just wanted to end it all.
+      I still kinda feel the same way today, but I got such good sleep that it doesn't
+      really matter. Work is.. work I guess. I don't really like it and I'm still trying to get
+      a feel for everything, but it's a fantastic workout which I highly appreciate. I'm sore today, but
+      not as bad as I was Saturday. 
+** Old Journals <<JR:OJ>>
+*** Journal [2020-11-12 Thu]
+    - [2020-11-12 Thu 13:39]
+      Went to orientation again this morning. I'm happy to have something I can kinda schedule my life
+      around. Japanese study is going really well It's slow, but I notice little wins that make me feel good
+      about my progress. I really wish I had a native I could talk to. I think I'm going to study that right
+      now.
+*** Journal [2020-11-11 Wed]
+    - [2020-11-11 Wed 09:21]
+      Good morning! My sleep is actually getting better. My obsession with StarCraft is growing. I dreamt about it a lot last night.
+      I signed up to do temp work at fedex package handling. I have orientation here soon and need to head out. I'm excited to get out
+      and make some money. Even if the work isn't that exciting. I think I'll write in here again after orientation.
 *** Journal [2020-11-09 Mon]
     - [2020-11-09 Mon 08:34]
       Weekend was pretty fun. Went with jake and laurent to heather's birthday party Friday. That was fun I think.
       I don't really remember it all too well. I think I got a bit too rowdy. I spent Saturday hungover. Sunday I went
       with Israel to finish up the beer we started brewing. Now I'm here thrown back into the real world after a weekend of
-      debauchery.
-** Old Journals <<JR:OJ>>
+      debauchery.   
 *** Journal [2020-11-06 Fri]
     - [2020-11-06 Fri 13:57]
       Still no word back from Hellebore. I'm starting to feel like I didn't get the job. I hope I hear back from
